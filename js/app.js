@@ -145,25 +145,3 @@ if (ctx) {
     renderer.render(scene, camera);
   }
 }
-
-$(document).ready(function(){
-  $('.slider').slick({
-  dots: true,
-  swipeToSlide: true,
-  arrows: false,
-  fade: true,
-  cssEase: 'linear'
-});
-});
-  
-
-document.getElementById("slick-slider-div").addEventListener("wheel", myFunction);
-
-function myFunction() {
-    if ($('.slider').slick('slickCurrentSlide') == 3) {
-      window.onwheel = function(){ return true; }
-    } else {
-      window.onwheel = function(){ return false; }
-      $('.slider').slick('slickNext');
-    }
-}
