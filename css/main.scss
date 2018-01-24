@@ -57,7 +57,7 @@ Section
 #galaxy {
   will-change: background-position;
   background: url(/assets/galaxy.png);
-  background-size: 120%;
+  background-size: cover;
   background-repeat: no-repeat;
   transition: 0.1s ease;
 }
@@ -81,6 +81,7 @@ Section
 
 .section__header-group {
   color: white;
+  transform: translateY(-30px);
 }
 
 .section__header {
@@ -315,6 +316,10 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
+  :root {
+    font-size: 80%;
+  }
+
   .form__item {
     width: 360px;
   }
@@ -353,6 +358,9 @@ footer {
   }
   figure img {
     width: 100%;
+  }
+  .section__header-group {
+    transform: translateY(-40px);
   }
 }
 

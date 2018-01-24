@@ -30,7 +30,7 @@ section1.onmousemove = ({ pageX: x, pageY: y }) => {
 
   fallbackImage.style.transform =
     "translate(" + pX * -scale + "%, " + pY * -scale + "%)";
-  section1.style.backgroundPosition = -pX * scale + "% " + -pY * scale + "%";
+  section1.style.backgroundPosition = -pX * scale + 5 + "% " + -pY * scale + "%";
 };
 
 prompt.onclick = () => {
