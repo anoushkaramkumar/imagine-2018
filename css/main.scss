@@ -7,6 +7,10 @@ $page-margin: 30px;
   box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 body {
   margin: 0;
   background-color: $black;
@@ -24,6 +28,7 @@ canvas {
   transform: scale(0.5);
   transform-origin: 0 0;
 }
+
 
 .social-icons {
   margin-top: 25px;
