@@ -27,14 +27,14 @@ canvas {
 
 footer {
   .icon {
-    width: 30px;
-    height: 30px;
+    width: 5%;
+    height: 2vh;
     margin: 0 20px;
   }
 
   .icon img {
-    width: 30px;
-    height: 30px;
+    width: 5%;
+    height: 2vh;
     object-fit: contain;
   }
 }
@@ -81,7 +81,6 @@ Section
 
 .section__header-group {
   color: white;
-  transform: translateY(-30px);
 }
 
 .section__header {
@@ -89,7 +88,7 @@ Section
   font-weight: 400;
   font-size: 3rem;
   text-align: center;
-  margin: 24% 0 0 0;
+  margin-top: 10vh;
 }
 
 .section__subtext {
