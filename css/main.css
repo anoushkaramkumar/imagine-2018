@@ -17,14 +17,16 @@ canvas {
   transform: scale(0.5);
   transform-origin: 0 0; }
 
-.social-icons .icon {
-  width: 5%;
-  height: 2vh;
-  margin: 0 20px; }
-.social-icons .icon img {
-  width: 5%;
-  height: 2vh;
-  object-fit: contain; }
+.social-icons {
+  margin-top: 25px; }
+  .social-icons .icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 20px; }
+  .social-icons .icon img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain; }
 
 /* 
 
@@ -68,7 +70,8 @@ Section
   font-weight: 400;
   font-size: 3rem;
   text-align: center;
-  margin-top: 15vh; }
+  margin-top: 15vh;
+  margin-bottom: 10px; }
 
 .section__subtext {
   text-align: right;
