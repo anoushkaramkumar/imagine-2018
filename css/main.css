@@ -18,12 +18,12 @@ canvas {
   transform-origin: 0 0; }
 
 .social-icons .icon {
-  width: 30px;
-  height: 30px;
+  width: 5%;
+  height: 2vh;
   margin: 0 20px; }
 .social-icons .icon img {
-  width: 30px;
-  height: 30px;
+  width: 5%;
+  height: 2vh;
   object-fit: contain; }
 
 /* 
@@ -61,15 +61,14 @@ Section
   background-color: #1b1b1b; }
 
 .section__header-group {
-  color: white;
-  transform: translateY(-30px); }
+  color: white; }
 
 .section__header {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 3rem;
   text-align: center;
-  margin: 24% 0 0 0; }
+  margin-top: 15vh; }
 
 .section__subtext {
   text-align: right;
