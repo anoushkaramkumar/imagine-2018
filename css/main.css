@@ -17,11 +17,11 @@ canvas {
   transform: scale(0.5);
   transform-origin: 0 0; }
 
-footer .icon {
+.social-icons .icon {
   width: 30px;
   height: 30px;
   margin: 0 20px; }
-footer .icon img {
+.social-icons .icon img {
   width: 30px;
   height: 30px;
   object-fit: contain; }
