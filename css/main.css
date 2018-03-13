@@ -1,16 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:900|Muli");
 html {
+  background-color: #151642;
   overflow: hidden; }
 
-html {
-  background-color: #151642;
+body {
   margin: 0; }
 
 div#particles-js {
   height: 100vh; }
-
-img {
-  width: 200px; }
 
 .planets {
   position: absolute;
