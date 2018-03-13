@@ -6,65 +6,113 @@ html {
 body {
   margin: 0; }
 
+#contaianer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif; }
+
+#wrapper {
+  overflow: hidden;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  left: 0;
+  /*.transform(translate(-50%, -50%));*/ }
+  #wrapper div {
+    position: absolute;
+    background-position: center center;
+    background-size: cover; }
+
+.planet1 {
+  height: 48vh;
+  width: 48vh;
+  z-index: 8;
+  background-image: url(../assets/planet1.png);
+  right: 23vw;
+  top: 6vh; }
+
+.planet2 {
+  top: 80vh;
+  height: 45vh;
+  width: 45vh;
+  z-index: 8;
+  background-image: url(../assets/planet2.png);
+  right: 8vw; }
+
+.planet3 {
+  height: 20vh;
+  width: 20vh;
+  z-index: 8;
+  background-image: url(../assets/planet3.png);
+  top: 50vh;
+  right: 2vw; }
+  @media (max-width: 500px) {
+    .planet3 {
+      display: none !important; } }
+
+.planet4 {
+  display: none; }
+  @media (max-width: 500px) {
+    .planet4 {
+      display: block !important;
+      height: 30vh;
+      width: 30vh;
+      z-index: 8;
+      background-image: url(../assets/planet4.png);
+      top: 40vh;
+      right: 2vw; } }
+
+.comet3 {
+  -ms-transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+  background-image: url(../assets/comet3.png);
+  right: 22vw;
+  z-index: 8;
+  height: 105vh;
+  width: 7vh;
+  top: 2vh; }
+  @media (max-width: 500px) {
+    .comet3 {
+      display: none; } }
+
+.comet5 {
+  -ms-transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+  background-image: url(../assets/comet5.png);
+  z-index: 8;
+  right: 0vh;
+  top: -34vh;
+  width: 7vh;
+  height: 80vh; }
+
 div#particles-js {
   height: 100vh; }
 
 .planets {
-  position: absolute;
-  width: 520px;
-  right: 0;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 100%;
   -webkit-transition: all 0.5s;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  display: block; }
 
 .comets {
-  position: absolute;
-  height: 570px;
-  width: auto; }
-
-.planet1 {
-  height: 48vh;
-  width: auto;
-  right: 23vw;
-  top: 9vh; }
+  position: absolute; }
 
 .planets:hover {
   -webkit-box-shadow: 0px 0px 30px 0px rgba(128, 145, 148, 0.67);
   -moz-box-shadow: 0px 0px 30px 0px rgba(128, 145, 148, 0.67);
   box-shadow: 0px 0px 30px 0px rgba(128, 145, 148, 0.67); }
 
-.planet2 {
-  top: 80vh;
-  height: 45vh;
-  width: auto;
-  right: 8vw; }
-
-.planet3 {
-  top: 50vh;
-  height: 20vh;
-  right: 2vw;
-  width: auto; }
-
 .planet4 {
   display: none; }
-
-.comet3 {
-  -ms-transform: rotate(60deg);
-  -webkit-transform: rotate(60deg);
-  transform: rotate(60deg);
-  right: 21vw;
-  top: 17vh; }
-
-.comet5 {
-  -ms-transform: rotate(60deg);
-  -webkit-transform: rotate(60deg);
-  transform: rotate(60deg);
-  right: 0;
-  top: -19vh;
-  width: 5vw;
-  height: auto; }
 
 .comet1, .comet2, .comet4 {
   display: none; }
@@ -76,12 +124,21 @@ div#particles-js {
   top: 0;
   bottom: 0;
   left: 3.5vw;
-  margin: auto; }
+  margin: auto;
+  z-index: 999999; }
+  @media (max-width: 1000px) {
+    .info {
+      width: 100%;
+      left: 0;
+      text-align: center; } }
   .info h3 {
     font-family: 'Lato', sans-serif;
     color: white;
     font-size: 5em;
     margin: 0 0 1vw; }
+    @media (max-width: 500px) {
+      .info h3 {
+        font-size: 4em; } }
   .info p {
     font-family: 'Muli', sans-serif;
     font-size: 2em;
@@ -96,7 +153,16 @@ div#particles-js {
     width: 60%;
     font-family: 'Muli', sans-serif;
     font-size: 1.2em;
-    color: #C5C5D0; }
+    color: #C5C5D0;
+    transition: all 0.2s; }
+    @media (max-width: 500px) {
+      .info input {
+        width: 80%;
+        display: block;
+        margin: auto; } }
+  .info input:focus {
+    outline: none;
+    box-shadow: 3px 4px 10px 1px rgba(219, 219, 255, 0.2); }
   .info .btn {
     font-size: 1.5em;
     background: none;
@@ -104,11 +170,25 @@ div#particles-js {
     border: none;
     position: relative;
     right: 50px; }
+    @media (max-width: 500px) {
+      .info .btn {
+        left: 36%;
+        top: -38px; } }
 
 .socials {
   position: absolute;
   bottom: 5vw;
-  left: 3.5vw; }
+  left: 3.5vw;
+  z-index: 999999; }
+  @media (max-width: 500px) {
+    .socials {
+      display: block;
+      margin: auto;
+      position: relative;
+      width: 72%;
+      left: 0;
+      text-align: center;
+      bottom: 50px; } }
   .socials i {
     font-size: 2.1em;
     color: #C5C5D0;
