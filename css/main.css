@@ -90,16 +90,20 @@ div#particles-js {
   .info input {
     border: 2px solid #C5C5D0;
     border-radius: 28px;
-    background: url(../assets/arrow.png) no-repeat scroll 7px;
-    background-size: 30px;
-    background-position-x: 98%;
-    padding-right: 30px;
+    background: none;
     padding-left: 15px;
     height: 6vh;
     width: 60%;
     font-family: 'Muli', sans-serif;
     font-size: 1.2em;
     color: #C5C5D0; }
+  .info .btn {
+    font-size: 1.5em;
+    background: none;
+    color: #C5C5D0;
+    border: none;
+    position: relative;
+    right: 50px; }
 
 .socials {
   position: absolute;
