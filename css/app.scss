@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:900|Muli:200,400,700');
+
+body {
+	margin: 0;
+}
+
+.container {
+	background: linear-gradient(#151642, #280837, #5A0701);
+	margin: 0;
+	padding: 30px;
+
+	@media (max-width: 500px) {
+        padding: 5%;
+    }
+
+	a {
+    	font-family: "Lato";
+	    cursor: pointer;
+	    color: #151642;
+	    background-color: #e0e0e0b5;
+	    font-weight: 900;
+	    font-size: 1.2em;
+	    padding: 9px;
+	    text-align: center;
+	    display: block;
+	    width: fit-content;
+	    margin: 20px 0;
+
+	    &:hover {
+		    background: #DDD !important;
+		}
+    }
+
+	.top {
+		color: white;
+		font-family: "Lato", sans-serif;
+	    text-align: center;
+
+	    .pagetitle {
+    	    font-size: 4em;
+		    margin: 0;
+
+		    @media (max-width: 520px) {
+	            font-size: 3.1em;
+	        }
+
+		    &.a {
+		    	display: none;
+		    }
+	    }
+
+	    h2 {
+	    	display: inline;
+		    padding-right: 10px;
+		    position: relative;
+		    bottom: 7px;
+		    font-size: 2.3em;
+	    }
+
+	    img {
+    	    width: 42px;
+		    display: inline;
+	    }
+	}
+
+	.ldBar.label-center > .ldBar-label {
+	    color: white;
+	    font-family: "Lato", sans-serif;
+	    font-size: 1.2em;
+	    text-shadow: none;
+	}
+
+	.progress {
+	    display: block;
+	    float: left;
+	    width: 25%;
+
+	    @media (max-width: 870px) {
+            float: none;
+            width: 100%;
+
+            svg, p {
+            	display: none;
+            }
+        }
+
+	    .inner {
+	    	width: 130px;
+		    margin-left: 40px;
+
+		    @media (max-width: 870px) {
+	            width: 100%;
+			    margin: 0;
+			    text-align: center;
+	        }
+	    }
+
+	    text {
+	    	fill: white;
+		    font-family: "Lato";
+		    font-size: 2.3em;
+	    }
+
+	    input[type="submit"] {
+		    cursor: pointer;
+		    color: #151642;
+		    background-color: #e0e0e0b5;
+		    font-weight: 900;
+		    padding: 7px;
+		    border: none;
+		    font-size: 1.1em;
+		    font-family: "Lato";
+		    display: block;
+		    margin: 10px 0;
+		    width: 100%;
+		    outline: none;
+
+		    &:hover {
+			    background: #DDD !important;
+			}
+
+			@media (max-width: 870px) {
+	            display: inline-block;
+				width: 70%;
+				padding: 10px 20px;
+				font-size: 1.2em;
+				margin: 10px;
+				-webkit-appearance: none;
+				border-radius: 0;
+	        }
+		}
+
+		.progress__meter, .progress__value1, .progress__value2 {
+		  fill: none;
+		}
+
+		.progress__meter {
+		  stroke: transparent;
+		}
+
+		.progress__value1, .progress__value2 {
+			stroke: #ffffff;
+		}
+
+	    p {
+		   	color: white;
+		    font-family: "Muli", sans-serif;
+		    text-align: center;
+		    font-size: 1.2em;
+		    margin-bottom: 2em;
+		}
+	}
+
+	.form {
+	    display: block;
+	    float: left;
+	    width: 75%;
+
+	    @media (max-width: 870px) {
+            float: none;
+            width: 100%;
+        }
+
+	    label {
+		    font-family: "Lato", sans-serif;
+		    color: white;
+		    font-size: 1.2em;
+		}
+
+		input {
+	        margin: 8px 5px 20px 0;
+		    background: none;
+		    border: none;
+		    border-bottom: 2px solid white;
+		    color: #ffffffde;
+		    font-size: 1.1em;
+		    outline: none;
+		    font-family: "Muli", sans-serif;
+		    width: 300px;
+		    border-radius: 0;
+		}
+
+		input[type=radio] {
+		    display:none;
+		}
+
+		.radio-list1, .radio-list2 {
+		    list-style-type:none;
+	        margin: 15px 0 20px 0;
+		    padding:0;
+
+		    li {
+			    float:left;
+			    margin:0 5px 0 0;
+			}
+
+			label {
+			    padding:5px;
+			    cursor:pointer;
+			    -webkit-appearance: listitem;
+			    -moz-appearance: listitem;
+			    -o-appearance: listitem;
+			    -ms-appearance: listitem;
+			    appearance: listitem;
+		        color: #151642;
+			    background-color: #e0e0e0b5;
+			    font-weight: 900;
+			    padding: 7px;
+
+			    &:hover {
+				    background: #DDD !important;
+				}
+
+				&.checked {
+					background-color: #e0e0e0;
+				}
+			}
+		}
+
+		.application {
+			display: none;
+
+			textarea {
+			    resize: none;
+			    outline: none;
+			    background: none;
+			    border: 1px solid white;
+			    width: 55%;
+			    height: 160px;
+			    color: white;
+			    margin-top: 10px;
+			    margin-bottom: 20px;
+			    border-radius: 6px;
+			    font-family: "Muli", sans-serif;
+			    font-size: 0.9em;
+
+			    @media (max-width: 870px) {
+		            width: 97%;
+		        }
+			}
+		}
+		
+	}
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:900|Muli:400,700');
+
+html {
+	background-color: #151642;
+	font-family: 'Muli', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.container {
+	background-image: url(https://s3.amazonaws.com/imagine-2018/assets/history.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    float: right;
+    top: 0;
+    right: 0;
+
+    @media (max-width: 650px) {
+        background-image: url(https://s3.amazonaws.com/imagine-2018/assets/HistoryMobile.png);
+    }
+
+    h3 {
+    	font-family: 'Lato', sans-serif;
+    	color: white;
+    	text-align: center;
+    	font-size: 4em;
+    }
+
+    .box {
+	    max-width: 930px;
+	    display: block;
+	    margin: 40px auto;
+	    height: 360px;
+	    @media (max-width: 800px) {
+            height: 270px;
+        }
+
+        @media (max-width: 650px) {
+            height: auto;
+        }
+
+    	.imgdiv {
+    		width: 43%;
+    		img {
+			    border: 2px solid white;
+				border-radius: 100%;
+				height: 360px;
+                margin: auto;
+                display: block;
+
+                @media (max-width: 800px) {
+                    height: 270px;
+                }
+
+                @media (max-width: 650px) {
+                    height: 50vw;
+                    min-width: 300px;
+                    min-height: 300px;
+                }
+    		}
+    	}
+
+    	.text {
+    		color: white;
+		    width: calc(53% - 4px);
+		    text-align: center;
+		    margin-top: 13%;
+
+		    h4 {
+			    font-family: 'Lato', sans-serif;
+			    color: white;
+			    font-size: 4em;
+			    margin: 0;
+			}
+			p {
+			    font-size: 1.5em;
+			    margin-top: 1%;
+			}
+    	}
+    }
+
+    .right.box {
+    	.imgdiv {
+    		float: left;
+    		margin-left: 4%;
+
+            @media (max-width: 650px) {
+                float: none;
+                margin-left: 0;
+                width: 100vw;
+            }
+    	}
+
+    	.text {
+		    float: right;
+            @media (max-width: 650px) {
+                float: none;
+                margin: 2% auto;
+                text-align: center;
+                width: 90vw;
+            }
+		}
+    }
+
+    .left.box {
+    	.imgdiv {
+    		float: right;
+    		margin-right: 4%;
+            @media (max-width: 650px) {
+                float: none;
+                margin-right: 0;
+                width: 100vw;
+            }
+    	}
+
+    	.text {
+		    float: left;
+            @media (max-width: 650px) {
+                float: none;
+                margin: 2% auto;
+                text-align: center;
+                width: 90vw;
+            }
+		}
+    }
+}
+
