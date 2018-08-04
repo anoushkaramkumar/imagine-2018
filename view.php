@@ -184,20 +184,20 @@
                     <h3 class = "animated fadeIn">SPONSORS</h3>
                     <div class="logos">
                         <div class = "row">
-                            <a href = "github.com"><img src="assets/github.png" class="github"></a>
-                            <img src="assets/google.png" class="google">
+                            <a target="_blank "href = "https://github.com/"><img src="assets/github.png" class="github"></a>
+                            <a target="_blank "href = "https://www.google.com/"><img src="assets/google.png" class="google"></a>
                         </div>
                         <div class = "row">
-                            <img src="assets/quizlet.png" class="quizlet">
-                            <img src="assets/giphy.png" class="giphy">
-                            <img src="assets/twilio.png" class="twilio">
+                            <a target="_blank "href = "https://quizlet.com/"><img src="assets/quizlet.png" class="quizlet"></a>
+                            <a target="_blank "href = "https://giphy.com/"><img src="assets/giphy.png" class="giphy"></a>
+                            <a target="_blank "href = "https://www.twilio.com/"><img src="assets/twilio.png" class="twilio"></a>
                         </div>
                         <div class = "row">
-                            <img src="assets/janestreet.png" class="janestreet">
+                            <a target="_blank "href = "https://www.janestreet.com/"><img src="assets/janestreet.png" class="janestreet"></a>
                         </div>
                         <div class = "row">
-                            <img src="assets/upperline.png" class="upperline">
-                            <img src="assets/jetbrains.png" class="jetbrains">
+                            <a target="_blank "href = "https://www.upperlinecode.com/"><img src="assets/upperline.png" class="upperline"></a>
+                            <a target="_blank "href = "https://www.jetbrains.com/"><img src="assets/jetbrains.png" class="jetbrains"></a>
                             <!-- <img src="assets/byteacademy.png" class="byteacademy"> -->
                         </div>
                     </div>
