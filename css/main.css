@@ -614,6 +614,42 @@ div#particles-js {
       width: 140px;
       right: 670px;
       bottom: 150px; }
+    @media (max-width: 1065px) {
+      .gradient .sponsors .logos .row .quizlet {
+        width: 270px; }
+      .gradient .sponsors .logos .row .twilio {
+        height: 70px;
+        margin: 0; }
+      .gradient .sponsors .logos .row .jetbrains {
+        width: 170px; }
+      .gradient .sponsors .logos .row .upperline {
+        width: 270px;
+        bottom: 80px; }
+      .gradient .sponsors .logos .row .janestreet {
+        width: 340px;
+        top: 0px; }
+      .gradient .sponsors .logos .row .giphy {
+        margin: 0;
+        height: 100px; } }
+    @media (max-width: 800px) {
+      .gradient .sponsors .logos .row .github {
+        width: 130px; }
+      .gradient .sponsors .logos .row .google {
+        height: 90px; }
+      .gradient .sponsors .logos .row .twilio {
+        left: 150px;
+        top: 20px; }
+      .gradient .sponsors .logos .row .janestreet {
+        right: 100px;
+        top: 0px; }
+      .gradient .sponsors .logos .row .row:nth-child(4) {
+        margin-bottom: -110px; }
+      .gradient .sponsors .logos .row .jetbrains {
+        left: 150px;
+        bottom: 100px; }
+      .gradient .sponsors .logos .row .upperline {
+        top: 40px;
+        right: 90px; } }
 
 .blackhole {
   margin-top: -20vw;

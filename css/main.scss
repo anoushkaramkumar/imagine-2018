@@ -815,6 +815,70 @@ div#particles-js {
                     right: 670px;
                     bottom: 150px;
                 }
+
+                @media (max-width: 1065px) {
+                    .quizlet {
+                        width: 270px;
+                    }
+
+                    .twilio {
+                        height: 70px;
+                        margin: 0;
+                    }
+
+                    .jetbrains {
+                        width: 170px;
+                    }
+
+                    .upperline {
+                        width: 270px;
+                        bottom: 80px;
+                    }
+
+                    .janestreet {
+                        width: 340px;
+                        top: 0px;
+                    }
+
+                    .giphy {
+                        margin: 0;
+                        height: 100px;
+                    }
+                }
+
+                @media (max-width: 800px) {
+                    .github {
+                        width: 130px;
+                    }
+
+                    .google {
+                        height: 90px;
+                    }
+
+                    .twilio {
+                        left: 150px;
+                        top: 20px;
+                    }
+
+                    .janestreet {
+                        right: 100px;
+                        top: 0px;
+                    }
+
+                    .row:nth-child(4) {
+                        margin-bottom: -110px;
+                    }
+
+                    .jetbrains {
+                        left: 150px;
+                        bottom: 100px;
+                    }
+
+                    .upperline {
+                        top: 40px;
+                        right: 90px;
+                    }
+                }
             }
         }
     }
