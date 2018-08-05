@@ -3,6 +3,9 @@ html {
   background-color: #151642;
   font-family: 'Muli', sans-serif; }
 
+body {
+  margin: 0; }
+
 a {
   text-decoration: none; }
 
@@ -31,7 +34,9 @@ a {
     font-family: 'Lato', sans-serif;
     color: white;
     text-align: center;
-    font-size: 4em; }
+    font-size: 4em;
+    width: fit-content;
+    margin: 50px auto; }
   .container .box {
     max-width: 930px;
     display: block;

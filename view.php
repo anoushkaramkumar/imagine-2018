@@ -20,7 +20,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 
-<body>
+<body class="page-section" id="home">
     <header>
         <nav class="cd-stretchy-nav">
             <a class="cd-nav-trigger" href="#0">
@@ -29,7 +29,8 @@
             </a>
 
             <ul>
-                <li><a class="active" href="#about"><span>About</span></a></li>
+                <li><a class="active" href="#home"><span></span></a></li>
+                <li><a href="#about"><span>About</span></a></li>
                 <li><a href="#event-info"><span>Event info</span></a></li>
                 <li style="display: none;"><a class="navigation__link" href="#schedule"><span>Schedule</span></a></li>
                 <li><a href="#speakers"><span>Speakers</span></a></li>

@@ -157,10 +157,6 @@ body {
         max-height: 100%;
         overflow: auto;
 
-        @media (max-width: 500px) {
-            margin: 0 auto;
-        }
-
         input[type="text"], input[type="password"] {
             width: 97%;
             font-size: 1.3em;

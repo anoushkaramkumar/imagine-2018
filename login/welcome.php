@@ -90,15 +90,41 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/lightmodal.min.css" rel="stylesheet" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/nav.css">
     <link rel="icon" type="image/png" href="https://s3.amazonaws.com/imagine-2018/assets/favicon.ico">
-    <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/account.css" rel="stylesheet" />
+    <link type="text/css" href="../css/account.css" rel="stylesheet" />
 </head>
 <body>
+    <header>
+        <nav class="cd-stretchy-nav">
+            <a class="cd-nav-trigger" href="#0">
+                Menu
+                <span aria-hidden="true"></span>
+            </a>
+
+            <ul>
+                <li><a href="/"><span></span></a></li>
+                <li><a href="/#about"><span>About</span></a></li>
+                <li><a href="/#event-info"><span>Event info</span></a></li>
+                <li style="display: none;"><a class="navigation__link" href="#schedule"><span>Schedule</span></a></li>
+                <li><a href="/#speakers"><span>Speakers</span></a></li>
+                <li><a href="/#faq"><span>FAQs</span></a></li>
+                <li><a href="/#sponsors"><span>Sponsors</span></a></li>
+                <li><a style="display: none;" href="/registration"><span>Register</span></a></li>
+                <li><a href="logout.php"><span>Logout</span></a></li>
+                <li style="display: none;"><a href="/workshops"><span>Workshops</span></a></li>
+                <li><a class="active" href="/history"><span>History</span></a></li>
+            </ul>
+
+            <span aria-hidden="true" class="stretchy-nav-bg"></span>
+        </nav>
+    </header>
+
     <div id="particles-js" class="wrapper">
         <div class="page-header">
             <h1>Hello, <b><?php echo explode(" ", htmlspecialchars($_SESSION['name']))[0]; ?></b>! The application has not yet opened; we’ll let you know when it does.</h1>
             <p>
-                <a href="/"><i class="fas fa-home"></i></a>
                 <a href="logout.php"><i class="fas fa-sign-out-alt"></i></a>
                 <a href="#settings"><i class="fas fa-cog"></i></a>
             </p>
@@ -142,8 +168,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </div>
     </div>    
 
+    <style type="text/css">
+        .cd-stretchy-nav ul li:nth-of-type(9) a::after {
+          content: "\f08b";  
+        }
+    </style>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../nav.js"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="../particles.js"></script>
     <script src="../app.js"></script>  

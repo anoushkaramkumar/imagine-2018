@@ -195,7 +195,7 @@ div#particles-js {
 }
 
 .particles-js-canvas-el {
-    @media (max-width: 500px) {
+    @media (max-width: 950px) {
         display: none;        
     }
 }
@@ -231,7 +231,7 @@ div#particles-js {
     left: 25%;
     text-align: center;
     margin: auto;
-    z-index: 999999;
+    z-index: 99;
 
     @media (max-width: 950px) {
         left: 0;
@@ -246,6 +246,10 @@ div#particles-js {
 
     @media (max-height: 450px) {
         height: 65vh;
+    }
+
+    @media (max-width: 660px) {
+        z-index: 98;
     }
 
 	h3 {
@@ -340,6 +344,10 @@ div#particles-js {
         width: 80%;
     }
 
+     @media (max-width: 660px) {
+        z-index: 98;
+    }
+
     a {
         color: #ffffffc4;
         position: relative;
@@ -388,6 +396,8 @@ div#particles-js {
 .contact {
     margin-top: 7%;
     padding-bottom: 2%;
+    z-index: 99;
+    position: relative;
 
     h3 {
         text-align: center;
@@ -858,28 +868,59 @@ div#particles-js {
                     }
 
                     .twilio {
-                        left: 150px;
-                        top: 20px;
+                        left: 30px;
+                        top: 10px;
                     }
 
                     .janestreet {
-                        right: 100px;
+                        right: 120px;
                         top: 0px;
                     }
 
-                    .row:nth-child(4) {
+                    &:nth-child(4) {
                         margin-bottom: -110px;
                     }
 
                     .jetbrains {
-                        left: 150px;
+                        left: 60px;
                         bottom: 100px;
                     }
 
                     .upperline {
-                        top: 40px;
+                        bottom: 80px;
                         right: 90px;
                     }
+
+                    .giphy {
+                        right: 0px;
+                    }
+
+                    .quizlet {
+                        right: 30px;
+                    }
+                }
+
+                 @media (max-width: 585px) {
+                    img {
+                        display: block;
+                        top: 0 !important;
+                        left: 0 !important;
+                        right: 0 !important;
+                        bottom: 0 !important;
+                        margin: 40px auto !important;
+                        width: auto;
+                        height: auto;
+                    }
+
+                    &:nth-child(4) {
+                        margin-bottom: 0;
+                    }
+
+                    .janestreet {
+                        width: 270px;
+                    }
+
+
                 }
             }
         }

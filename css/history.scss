@@ -5,6 +5,10 @@ html {
 	font-family: 'Muli', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -38,6 +42,8 @@ a {
     	color: white;
     	text-align: center;
     	font-size: 4em;
+        width: fit-content;
+        margin: 50px auto;
     }
 
     .box {

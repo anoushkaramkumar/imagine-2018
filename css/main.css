@@ -166,7 +166,7 @@ div#particles-js {
       height: auto;
       padding-bottom: 30vw; } }
 
-@media (max-width: 500px) {
+@media (max-width: 950px) {
   .particles-js-canvas-el {
     display: none; } }
 
@@ -196,7 +196,7 @@ div#particles-js {
   left: 25%;
   text-align: center;
   margin: auto;
-  z-index: 999999; }
+  z-index: 99; }
   @media (max-width: 950px) {
     .info {
       left: 0;
@@ -210,6 +210,9 @@ div#particles-js {
   @media (max-height: 450px) {
     .info {
       height: 65vh; } }
+  @media (max-width: 660px) {
+    .info {
+      z-index: 98; } }
   .info h3 {
     font-family: 'Lato', sans-serif;
     color: white;
@@ -279,6 +282,9 @@ div#particles-js {
       position: relative;
       bottom: 0;
       width: 80%; } }
+  @media (max-width: 660px) {
+    .whatis {
+      z-index: 98; } }
   .whatis a {
     color: #ffffffc4;
     position: relative;
@@ -313,7 +319,9 @@ div#particles-js {
 
 .contact {
   margin-top: 7%;
-  padding-bottom: 2%; }
+  padding-bottom: 2%;
+  z-index: 99;
+  position: relative; }
   .contact h3 {
     text-align: center;
     font-size: 1.1em;
@@ -639,19 +647,37 @@ div#particles-js {
       .gradient .sponsors .logos .row .google {
         height: 90px; }
       .gradient .sponsors .logos .row .twilio {
-        left: 150px;
-        top: 20px; }
+        left: 30px;
+        top: 10px; }
       .gradient .sponsors .logos .row .janestreet {
-        right: 100px;
+        right: 120px;
         top: 0px; }
-      .gradient .sponsors .logos .row .row:nth-child(4) {
+      .gradient .sponsors .logos .row:nth-child(4) {
         margin-bottom: -110px; }
       .gradient .sponsors .logos .row .jetbrains {
-        left: 150px;
+        left: 60px;
         bottom: 100px; }
       .gradient .sponsors .logos .row .upperline {
-        top: 40px;
-        right: 90px; } }
+        bottom: 80px;
+        right: 90px; }
+      .gradient .sponsors .logos .row .giphy {
+        right: 0px; }
+      .gradient .sponsors .logos .row .quizlet {
+        right: 30px; } }
+    @media (max-width: 585px) {
+      .gradient .sponsors .logos .row img {
+        display: block;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        margin: 40px auto !important;
+        width: auto;
+        height: auto; }
+      .gradient .sponsors .logos .row:nth-child(4) {
+        margin-bottom: 0; }
+      .gradient .sponsors .logos .row .janestreet {
+        width: 270px; } }
 
 .blackhole {
   margin-top: -20vw;

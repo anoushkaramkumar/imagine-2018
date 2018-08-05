@@ -7,15 +7,39 @@
     <title>Imagine 2018 | Our History</title>
     <link rel="icon" type="image/png" href="https://s3.amazonaws.com/imagine-2018/assets/favicon.ico">
     <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.1/particles.js"></script>
-    <link rel="stylesheet" href="https://use.typekit.net/ogv1wzn.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/nav.css">
     <link type="text/css" href="../css/history.css" rel="stylesheet" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 
 <body>
- 
+    <header>
+        <nav class="cd-stretchy-nav">
+            <a class="cd-nav-trigger" href="#0">
+                Menu
+                <span aria-hidden="true"></span>
+            </a>
+
+            <ul>
+                <li><a href="/"><span></span></a></li>
+                <li><a href="/#about"><span>About</span></a></li>
+                <li><a href="/#event-info"><span>Event info</span></a></li>
+                <li style="display: none;"><a class="navigation__link" href="#schedule"><span>Schedule</span></a></li>
+                <li><a href="/#speakers"><span>Speakers</span></a></li>
+                <li><a href="/#faq"><span>FAQs</span></a></li>
+                <li><a href="/#sponsors"><span>Sponsors</span></a></li>
+                <li><a href="/registration"><span>Register</span></a></li>
+                <li><a href="/login"><span>Login</span></a></li>
+                <li style="display: none;"><a href="/workshops"><span>Workshops</span></a></li>
+                <li><a class="active" href="/history"><span>History</span></a></li>
+            </ul>
+
+            <span aria-hidden="true" class="stretchy-nav-bg"></span>
+        </nav>
+    </header>
+    
     <div class="body-particles">
         <div class = "container">
             <h3 class =" animated fadeInDown"><i>OUR HISTORY</i></h3>
@@ -68,6 +92,7 @@
     <div id="particles-js"><div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../nav.js"></script>
     <script src="../particles.js"></script>
     <script type="text/javascript">
         particlesJS.load('particles-js', '/assets/particlesjs-config.json', function() {
