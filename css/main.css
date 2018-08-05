@@ -210,7 +210,7 @@ div#particles-js {
   @media (max-height: 450px) {
     .info {
       height: 65vh; } }
-  @media (max-width: 660px) {
+  @media (max-width: 950px) {
     .info {
       z-index: 98; } }
   .info h3 {
@@ -282,7 +282,7 @@ div#particles-js {
       position: relative;
       bottom: 0;
       width: 80%; } }
-  @media (max-width: 660px) {
+  @media (max-width: 950px) {
     .whatis {
       z-index: 98; } }
   .whatis a {
