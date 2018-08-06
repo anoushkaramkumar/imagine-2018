@@ -9,7 +9,7 @@
     <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.1/particles.js"></script>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v2.css">
     <link type="text/css" href="../css/history.css" rel="stylesheet" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
@@ -39,54 +39,53 @@
             <span aria-hidden="true" class="stretchy-nav-bg"></span>
         </nav>
     </header>
-    
+
     <div class="body-particles">
         <div class = "container">
             <h3 class =" animated fadeInDown"><i>OUR HISTORY</i></h3>
-            <a href = "https://2014.hackbca.com/">
-                <div class = "right box animated fadeInUp">
-                    <div class = "text">   
-                        <h4>hackBCA I</h4>
-                        <p>Built by High Schoolers, for High Schoolers.</p>
+            <div class = "boxes">
+                    <div class = "right box animated fadeInUp">
+                        <div class = "text">   
+                            <a href = "https://2014.hackbca.com/"><h4><i class="fa fa-link"></i></h4></a>
+                            <h4>hackBCA I</h4>
+                            <p>Built by High Schoolers, for High Schoolers.</p>
+                        </div>
+                        <div class = "imgdiv">
+                            <img src = "../assets/hackbca.png">
+                        </div>
                     </div>
-                    <div class = "imgdiv">
-                        <img src = "../assets/hackbca.png">
+                    <div class = "left box animated fadeInUp">
+                        <div class = "text">   
+                            <a href = "https://2015.hackbca.com/"><h4><i class="fa fa-link"></i></h4></a>
+                            <h4>hackBCA II</h4>
+                            <p>Change the Game.</p>
+                        </div>
+                        <div class = "imgdiv">
+                            <img src = "../assets/hackbca2.jpg">
+                        </div>
                     </div>
-                </div>
-            </a>
-            <a href = "https://2015.hackbca.com/">
-                <div class = "left box animated fadeInUp">
-                    <div class = "text">   
-                        <h4>hackBCA II</h4>
-                        <p>Change the Game.</p>
+                
+                    <div class = "right box animated fadeInUp">
+                        <div class = "text">   
+                            <a href = "https://2016.hackbca.com/"><h4><i class="fa fa-link"></i></h4></a>
+                            <h4>hackBCA III</h4>
+                            <p>Unleash The Next Generation.</p>
+                        </div>
+                        <div class = "imgdiv">
+                            <img src = "../assets/hackbca3.jpeg">
+                        </div>
                     </div>
-                    <div class = "imgdiv">
-                        <img src = "../assets/hackbca2.jpg">
+                    <div class = "left box animated fadeInUp">
+                        <div class = "text">   
+                            <a href = "https://2017.hackbca.com/"><h4><i class="fa fa-link"></i></h4></a>
+                            <h4>hackBCA IV</h4>
+                            <p>Lighting the Torch.</p>
+                        </div>
+                        <div class = "imgdiv">
+                            <img src = "../assets/hackbca4.jpg">
+                        </div>
                     </div>
-                </div>
-            </a>
-            <a href = "https://2016.hackbca.com/">
-                <div class = "right box animated fadeInUp">
-                    <div class = "text">   
-                        <h4>hackBCA III</h4>
-                        <p>Unleash The Next Generation.</p>
-                    </div>
-                    <div class = "imgdiv">
-                        <img src = "../assets/hackbca3.jpeg">
-                    </div>
-                </div>
-            </a>
-            <a href = "https://2017.hackbca.com/">
-                <div class = "left box animated fadeInUp">
-                    <div class = "text">   
-                        <h4>hackBCA IV</h4>
-                        <p>Lighting the Torch.</p>
-                    </div>
-                    <div class = "imgdiv">
-                        <img src = "../assets/hackbca4.jpg">
-                    </div>
-                </div>
-            </a>
+            </div>
         </div>
     </div>
     <div id="particles-js"><div>

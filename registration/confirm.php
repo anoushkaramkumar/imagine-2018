@@ -68,7 +68,7 @@ if($action['result'] != 'error'){
     <link rel="icon" type="image/png" href="https://s3.amazonaws.com/imagine-2018/assets/favicon.ico">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/lightmodal.min.css" rel="stylesheet" />
-    <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/account.css" rel="stylesheet" />
+    <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/account_v3.css" rel="stylesheet" />
 </head>
 <body>
     <div id="particles-js" class="wrapper">

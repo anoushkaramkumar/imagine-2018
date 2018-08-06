@@ -10,12 +10,12 @@ jQuery(document).ready(function(){
 				event.preventDefault();
 				stretchyNav.toggleClass('nav-is-visible');
 				$('header').toggleClass('bgblack');
-				$('h3, h2, h4, p, a, i, .socials, .logos img, form').toggleClass('zindex');
 			});
 		});
 
 		$(document).on('click', function(event){
-			( !$(event.target).is('.cd-nav-trigger') && !$(event.target).is('.cd-nav-trigger span') ) && stretchyNavs.removeClass('nav-is-visible') && $('header').removeClass('bgblack') && $('h3, h2, h4, p, a, i, .socials, .logos img, form').removeClass('zindex');;
+			( !$(event.target).is('.cd-nav-trigger') && !$(event.target).is('.cd-nav-trigger span') ) && stretchyNavs.removeClass('nav-is-visible') && $('header').removeClass('bgblack');
 		});
 	}
 });
+

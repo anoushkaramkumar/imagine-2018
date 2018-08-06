@@ -24,3 +24,35 @@ $(document).ready(function() {
 				return false;
 		});
 });
+
+
+$(window).scroll(function(){
+    function elementScrolled(elem)
+    {
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+        var elemTop = $(elem).offset().top;
+        return ((elemTop <= docViewBottom) && (elemTop >= docViewTop));
+    }
+     
+    // This is where we use the function to detect if ".box2" is scrolled into view, and when it is add the class ".animated" to the <p> child element
+    if(elementScrolled('#home')) {
+        $('.cd-stretchy-nav a.active').removeClass('active');
+		$('.cd-stretchy-nav ul a[href="#home"]').addClass('active');
+    } else if (elementScrolled('#about')) {
+        $('.cd-stretchy-nav a.active').removeClass('active');
+		$('.cd-stretchy-nav ul a[href="#about"]').addClass('active');
+    } else if (elementScrolled('#event-info')) {
+        $('.cd-stretchy-nav a.active').removeClass('active');
+		$('.cd-stretchy-nav ul a[href="#event-info"]').addClass('active');
+    } else if (elementScrolled('#speakers')) {
+        $('.cd-stretchy-nav a.active').removeClass('active');
+		$('.cd-stretchy-nav ul a[href="#speakers"]').addClass('active');
+    } else if (elementScrolled('#faq')) {
+        $('.cd-stretchy-nav a.active').removeClass('active');
+		$('.cd-stretchy-nav ul a[href="#faq"]').addClass('active');
+    } else if (elementScrolled('#sponsors')) {
+        $('.cd-stretchy-nav a.active').removeClass('active');
+		$('.cd-stretchy-nav ul a[href="#sponsors"]').addClass('active');
+    } 
+});

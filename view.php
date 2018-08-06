@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.1/particles.js"></script>
-    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v2.css">
     <link type="text/css" href="css/main.css" rel="stylesheet" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
@@ -185,21 +185,22 @@
                     <h3 class = "animated fadeIn">SPONSORS</h3>
                     <div class="logos">
                         <div class = "row">
-                            <a target="_blank "href = "https://github.com/"><img src="assets/github.png" class="github"></a>
-                            <a target="_blank "href = "https://www.google.com/"><img src="assets/google.png" class="google"></a>
+                            <a target="_blank" href = "https://github.com/"><img src="https://s3.amazonaws.com/imagine-2018/assets/github.png" class="github"></a>
+                            <a target="_blank" href = "https://www.google.com/"><img src="https://s3.amazonaws.com/imagine-2018/assets/google.png" class="google"></a>
                         </div>
                         <div class = "row">
-                            <a target="_blank "href = "https://quizlet.com/"><img src="assets/quizlet.png" class="quizlet"></a>
-                            <a target="_blank "href = "https://giphy.com/"><img src="assets/giphy.png" class="giphy"></a>
-                            <a target="_blank "href = "https://www.twilio.com/"><img src="assets/twilio.png" class="twilio"></a>
+                            <a target="_blank" href = "https://quizlet.com/"><img src="https://s3.amazonaws.com/imagine-2018/assets/quizlet.png" class="quizlet"></a>
+                            <a target="_blank" href = "https://giphy.com/"><img src="https://s3.amazonaws.com/imagine-2018/assets/giphy.png" class="giphy"></a>
+                            <a target="_blank" href = "https://www.twilio.com/"><img src="https://s3.amazonaws.com/imagine-2018/assets/twilio.png" class="twilio"></a>
                         </div>
                         <div class = "row">
-                            <a target="_blank "href = "https://www.janestreet.com/"><img src="assets/janestreet.png" class="janestreet"></a>
+                            <a target="_blank" href = "https://www.gakkoproject.com/"><img src="https://s3.amazonaws.com/imagine-2018/assets/gakko.png" class="gakko"></a>
+                            <a target="_blank" href = "https://www.janestreet.com/"><img src="https://s3.amazonaws.com/imagine-2018/assets/janestreet.png" class="janestreet"></a>
                         </div>
                         <div class = "row">
-                            <a target="_blank "href = "https://www.upperlinecode.com/"><img src="assets/upperline.png" class="upperline"></a>
-                            <a target="_blank "href = "https://www.jetbrains.com/"><img src="assets/jetbrains.png" class="jetbrains"></a>
-                            <!-- <img src="assets/byteacademy.png" class="byteacademy"> -->
+                            <a target="_blank" href = "https://www.upperlinecode.com/"><img src="https://s3.amazonaws.com/imagine-2018/assets/upperline.png" class="upperline"></a>
+                            <a target="_blank" href = "https://www.jetbrains.com/"><img src="https://s3.amazonaws.com/imagine-2018/assets/jetbrains.png" class="jetbrains"></a>
+                            
                         </div>
                     </div>
                 </div>        

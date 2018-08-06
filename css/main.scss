@@ -396,7 +396,6 @@ div#particles-js {
 .contact {
     margin-top: 7%;
     padding-bottom: 2%;
-    z-index: 99;
     position: relative;
 
     h3 {
@@ -773,11 +772,20 @@ div#particles-js {
                 margin: 10px;
                 position: relative;
                 vertical-align: middle;
+                transition: 0.5s all;
+
+                &:hover {
+                    opacity: 0.8;
+                    -webkit-filter: drop-shadow(5px 1px 3px rgba(136, 145, 146, 0.48));
+                    filter: drop-shadow(5px 1px 3px rgba(136, 145, 146, 0.48));
+                    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+                    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+                }
             }
 
             .row {
                 &:nth-child(4) {
-                    margin-bottom: -190px;
+                    margin-bottom: -80px;
                 }
 
                 .github {
@@ -806,20 +814,24 @@ div#particles-js {
                 }
                 
                 .janestreet {
-                    right: 190px;
+                    right: -20px;
                     top: 10px;
+                }
+
+                .gakko {
+                    width: 300px;
+                    top: 50px;
                 }
 
                 .upperline {
                     width: 330px;
-                    bottom: 100px;
-                    left: 50px;
+                    left: 30px;
                 }
 
                 .jetbrains {
                     left: 50px;
                     width: 230px;
-                    bottom: 160px;
+                    bottom: 10px;
                 }
 
                 .byteacademy {
@@ -831,6 +843,7 @@ div#particles-js {
                 @media (max-width: 1065px) {
                     .quizlet {
                         width: 270px;
+                        top: 10px;
                     }
 
                     .twilio {
@@ -844,17 +857,22 @@ div#particles-js {
 
                     .upperline {
                         width: 270px;
-                        bottom: 80px;
+                        bottom: 20px;
                     }
 
                     .janestreet {
                         width: 340px;
-                        top: 0px;
+                        top: 10px;
+                        margin: 0;
                     }
 
                     .giphy {
                         margin: 0;
                         height: 100px;
+                    }
+
+                    .gakko {
+                        top: 10px;
                     }
                 }
 
@@ -873,34 +891,44 @@ div#particles-js {
                     }
 
                     .janestreet {
-                        right: 120px;
-                        top: 0px;
+                        left: 30px;
+                        top: 20px;
+                        width: 280px;
                     }
 
                     &:nth-child(4) {
-                        margin-bottom: -110px;
+                        margin-bottom: 0px;
                     }
 
                     .jetbrains {
                         left: 60px;
-                        bottom: 100px;
+                        top: 10px;
                     }
 
                     .upperline {
-                        bottom: 80px;
-                        right: 90px;
+                        bottom: 0px;
+                        left: 50px;
                     }
 
                     .giphy {
-                        right: 0px;
+                        right: 0px; 
+                        height: 80px;
+                    }
+
+                    .gakko {
+                        width: 230px;
+                        top: 25px;
+                        margin: 0;
                     }
 
                     .quizlet {
                         right: 30px;
+                        width: 200px;
+                        margin: 0;
                     }
                 }
 
-                 @media (max-width: 585px) {
+                 @media (max-width: 620px) {
                     img {
                         display: block;
                         top: 0 !important;
@@ -920,7 +948,9 @@ div#particles-js {
                         width: 270px;
                     }
 
-
+                    .gakko {
+                        width: 230px;
+                    }
                 }
             }
         }

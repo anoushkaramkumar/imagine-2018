@@ -590,14 +590,7 @@ div#particles-js {
       display: inline-block;
       margin: 10px;
       position: relative;
-      vertical-align: middle;
-      transition: 0.5s all; }
-      .gradient .sponsors .logos img:hover {
-        opacity: 0.8;
-        -webkit-filter: drop-shadow(5px 1px 3px rgba(136, 145, 146, 0.48));
-        filter: drop-shadow(5px 1px 3px rgba(136, 145, 146, 0.48));
-        -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-        filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')"; }
+      vertical-align: middle; }
     .gradient .sponsors .logos .row:nth-child(4) {
       margin-bottom: -80px; }
     .gradient .sponsors .logos .row .github {

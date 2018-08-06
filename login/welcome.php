@@ -91,9 +91,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/lightmodal.min.css" rel="stylesheet" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v2.css">
     <link rel="icon" type="image/png" href="https://s3.amazonaws.com/imagine-2018/assets/favicon.ico">
-    <link type="text/css" href="../css/account.css" rel="stylesheet" />
+    <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/account_v3.css" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -114,7 +114,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <li><a style="display: none;" href="/registration"><span>Register</span></a></li>
                 <li><a href="logout.php"><span>Logout</span></a></li>
                 <li style="display: none;"><a href="/workshops"><span>Workshops</span></a></li>
-                <li><a class="active" href="/history"><span>History</span></a></li>
+                <li><a href="/history"><span>History</span></a></li>
             </ul>
 
             <span aria-hidden="true" class="stretchy-nav-bg"></span>
