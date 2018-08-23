@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sign Up</title>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v2.css">
+    <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v4.css">
     <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/account_v3.css" rel="stylesheet" />
 </head>
 <body>
@@ -19,16 +19,15 @@
             </a>
 
             <ul>
-                <li><a href="/"><span></span></a></li>
+                <li><a href="/#home"><span></span></a></li>
                 <li><a href="/#about"><span>About</span></a></li>
                 <li><a href="/#event-info"><span>Event info</span></a></li>
-                <li style="display: none;"><a class="navigation__link" href="#schedule"><span>Schedule</span></a></li>
+                <li><a href="/#schedule"><span>Schedule</span></a></li>
+                <li><a href="/#workshops"><span>Workshops</span></a></li>
                 <li><a href="/#speakers"><span>Speakers</span></a></li>
                 <li><a href="/#faq"><span>FAQs</span></a></li>
                 <li><a href="/#sponsors"><span>Sponsors</span></a></li>
-                <li><a class="active" href="/registration"><span>Register</span></a></li>
-                <li><a  href="/login"><span>Login</span></a></li>
-                <li style="display: none;"><a href="/workshops"><span>Workshops</span></a></li>
+                <li><a  href="/application"><span>Application</span></a></li>
                 <li><a href="/history"><span>History</span></a></li>
             </ul>
 
@@ -60,6 +59,7 @@
                 <input type="submit" class="btn btn-primary" value="Register">
             </div>
             
+            <div class="email-msg"><a style="color:white;" href = "/login">Already have an account?</a></div>
             <div class="email-msg"><?php echo $confirm_msg; ?></div>
             <div class="email-msg"><?php echo $error_msg; ?></div>
         </form>

@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Lato; }
+
+.schedule {
+  background-color: #8889B9;
+  color: white;
+  padding: 90px; }
+  .schedule h3 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0; }
+  .schedule .blocks {
+    width: fit-content;
+    margin: auto; }
+    .schedule .blocks h4 {
+      margin: 0;
+      font-size: 1.5em; }
+    .schedule .blocks h5 {
+      margin: 0 0 1em;
+      font-size: 1.5em; }
+    .schedule .blocks .b.left {
+      float: left;
+      width: fit-content;
+      margin-right: 5em; }
+    .schedule .blocks .b.right {
+      float: left;
+      width: fit-content; }
+    .schedule .blocks .times span {
+      display: block;
+      line-height: 1.4; }
+    .schedule .blocks .times b {
+      width: 100px;
+      display: inline-block;
+      text-align: right;
+      padding-right: 10px; }
+
+.workshops {
+  background-color: #45477D;
+  padding: 50px 20px;
+  text-align: center; }
+  .workshops h3 {
+    text-align: left;
+    font-size: 2em;
+    color: white;
+    margin-top: 0;
+    padding-left: 15px; }
+  .workshops .card {
+    width: 250px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    display: inline-block;
+    height: 330px;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: left; }
+    .workshops .card h4 {
+      font-size: 1.25em;
+      margin: 0 0 .5em; }
+    .workshops .card .img-title {
+      position: relative;
+      vertical-align: middle;
+      display: block;
+      width: 100%; }
+      .workshops .card .img-title img {
+        width: 28%;
+        border-radius: 100%;
+        margin-top: 1em;
+        vertical-align: middle; }
+      .workshops .card .img-title span {
+        float: right;
+        width: 65%;
+        vertical-align: middle;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        transform: translate(-50%, -50%); }
+        .workshops .card .img-title span p {
+          margin: 0; }
+          .workshops .card .img-title span p:nth-child(1) {
+            font-weight: bold; }
+    .workshops .card .desc {
+      margin-top: 1em; }
+
+/*# sourceMappingURL=workshops.css.map */

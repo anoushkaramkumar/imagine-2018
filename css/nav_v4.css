@@ -199,24 +199,21 @@ Stretchy Nav style - common to:
   content: "\f0ca";  
 }
 .cd-stretchy-nav ul li:nth-of-type(5) a::after {
-  content: "\f2bd";  
-}
-.cd-stretchy-nav ul li:nth-of-type(6) a::after {
-  content: "\f059";  
-}
-.cd-stretchy-nav ul li:nth-of-type(7) a::after {
-  content: "\f0d6";  
-}
-.cd-stretchy-nav ul li:nth-of-type(8) a::after {
-  content: "\f0c1";  
-}
-.cd-stretchy-nav ul li:nth-of-type(9) a::after {
-  content: "\f090";  
-}
-.cd-stretchy-nav ul li:nth-of-type(10) a::after {
   content: "\f0ad";  
 }
-.cd-stretchy-nav ul li:nth-of-type(11) a::after {
+.cd-stretchy-nav ul li:nth-of-type(6) a::after {
+  content: "\f2bd";  
+}
+.cd-stretchy-nav ul li:nth-of-type(7) a::after {
+  content: "\f059";  
+}
+.cd-stretchy-nav ul li:nth-of-type(8) a::after {
+  content: "\f0d6";  
+}
+.cd-stretchy-nav ul li:nth-of-type(9) a::after {
+  content: "\f040";  
+}
+.cd-stretchy-nav ul li:nth-of-type(10) a::after {
     content: '';
     background-image: url(https://s3.amazonaws.com/imagine-2018/assets/TorchWhite.svg);
     background-size: 1.1em;

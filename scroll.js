@@ -31,7 +31,7 @@ $(window).scroll(function(){
     {
         var docViewTop = $(window).scrollTop();
         var docViewBottom = docViewTop + $(window).height();
-        var elemTop = $(elem).offset().top;
+        var elemTop = $(elem).offset().top + 30;
         return ((elemTop <= docViewBottom) && (elemTop >= docViewTop));
     }
      
@@ -45,13 +45,19 @@ $(window).scroll(function(){
     } else if (elementScrolled('#event-info')) {
         $('.cd-stretchy-nav a.active').removeClass('active');
 		$('.cd-stretchy-nav ul a[href="#event-info"]').addClass('active');
+    }  else if (elementScrolled('#workshops')) {
+        $('.cd-stretchy-nav a.active').removeClass('active');
+		$('.cd-stretchy-nav ul a[href="#workshops"]').addClass('active');
+    } else if (elementScrolled('#schedule')) {
+        $('.cd-stretchy-nav a.active').removeClass('active');
+		$('.cd-stretchy-nav ul a[href="#schedule"]').addClass('active');
     } else if (elementScrolled('#speakers')) {
         $('.cd-stretchy-nav a.active').removeClass('active');
 		$('.cd-stretchy-nav ul a[href="#speakers"]').addClass('active');
     } else if (elementScrolled('#faq')) {
         $('.cd-stretchy-nav a.active').removeClass('active');
 		$('.cd-stretchy-nav ul a[href="#faq"]').addClass('active');
-    } else if (elementScrolled('#sponsors')) {
+    }else if (elementScrolled('#sponsors')) {
         $('.cd-stretchy-nav a.active').removeClass('active');
 		$('.cd-stretchy-nav ul a[href="#sponsors"]').addClass('active');
     } 

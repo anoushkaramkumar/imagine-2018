@@ -12,12 +12,37 @@
     <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.1/particles.js"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/ogv1wzn.css">
     <link rel="stylesheet" type="text/css" href="../loading-bar.css"/>
+    <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v4.css">
     <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/app.css" rel="stylesheet" />
 </head>
 
-<body>
+<body class="page-section" >
+	<header>
+        <nav class="cd-stretchy-nav">
+            <a class="cd-nav-trigger" href="#0">
+                Menu
+                <span aria-hidden="true"></span>
+            </a>
+
+            <ul>
+                <li><a href="/"><span></span></a></li>
+                <li><a href="/#about"><span>About</span></a></li>
+                <li><a href="/#event-info"><span>Event info</span></a></li>
+                <li><a href="/#schedule"><span>Schedule</span></a></li>
+                <li><a href="/#workshops"><span>Workshops</span></a></li>
+                <li><a href="/#speakers"><span>Speakers</span></a></li>
+                <li><a href="/#faq"><span>FAQs</span></a></li>
+                <li><a href="/#sponsors"><span>Sponsors</span></a></li>
+                <li><a class="active" href="/application"><span>Application</span></a></li>
+                <li><a href="/history"><span>History</span></a></li>
+            </ul>
+
+            <span aria-hidden="true" class="stretchy-nav-bg"></span>
+        </nav>
+    </header>
     
     <div class = "container">
     	<div class = "top">
@@ -101,12 +126,12 @@
 					            <input type="radio" <?php echo ($gender=='female')?'checked':'' ?> id="female" value="female" name="gender">Female</label>
 					    </li>
 					    <li>
-					        <label for="non-binary" <?php echo ($gender=='non-binary')?'class="checked"':'' ?>>
-					            <input type="radio" <?php echo ($gender=='non-binary')?'checked':'' ?> id="non-binary" value="non-binary" name="gender">Non-Binary</label>
-					    </li>
-					    <li>
 					        <label for="other" <?php echo ($gender=='other')?'class="checked"':'' ?>>
 					            <input type="radio" <?php echo ($gender=='other')?'checked':'' ?> id="other" value="other" name="gender">Other</label>
+					    </li>
+					    <li>
+					        <label for="rns" <?php echo ($gender=='rns')?'class="checked"':'' ?>>
+					            <input type="radio" <?php echo ($gender=='rns')?'checked':'' ?> id="rns" value="rns" name="gender">RNS</label>
 					    </li>
 					</ul>
 					<br><br>
@@ -122,16 +147,16 @@
 			    </div>
 
 			    <div class = "application">
-			    	<br><label>Question 1</label><br>
+			    	<br><label>Are you a beginner in computer science? If not, tell us about some of the stuff you’ve done.</label><br>
 			    	<textarea class="req <?php echo (strlen($ques1) > 0)?'counted':'' ?>" name="ques1"><?php echo $ques1;?></textarea>
 
-			    	<br><label>Question 2</label><br>
+			    	<br><label>Any links (e.g. Github, Personal Website, LinkedIn)?</label><br>
 			    	<textarea class="req <?php echo (strlen($ques2) > 0)?'counted':'' ?>" name="ques2"><?php echo $ques2;?></textarea>
 
-			    	<br><label>Question 3</label><br>
+			    	<br><label>What are your three main interests in the CS field?</label><br>
 			    	<textarea class="req <?php echo (strlen($ques3) > 0)?'counted':'' ?>" name="ques3"><?php echo $ques3;?></textarea>
 
-			    	<br><label>Question 4</label><br>
+			    	<br><label>Have you been to hackathons/technology events in the past? If so, which ones?</label><br>
 			    	<textarea class="req <?php echo (strlen($ques4) > 0)?'counted':'' ?>" name="ques4"><?php echo $ques4;?></textarea>
 			    	<br><a class = "a2gi">Step 1: General Info</a>
 			    </div>
@@ -143,6 +168,7 @@
     </div>
     
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="../nav.js"></script>
 	<script type="text/javascript">
 		var RADIUS = 54;
 		var CIRCUMFERENCE = 2  * Math.PI  * RADIUS;

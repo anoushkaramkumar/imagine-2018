@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:900|Muli:200,400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Muli:200,400,700');
 
 html {
     overflow-x: hidden;
@@ -462,6 +462,12 @@ div#particles-js {
                 width: 38px;
             }
         }
+
+        a {
+            display: block;
+            margin: 10px;
+            color: #9a9a9a;
+        }
     }
 }
 
@@ -710,6 +716,7 @@ div#particles-js {
                 img {
                     width: 150px;
                     border-radius: 90px;
+                    box-shadow: 3px 5px 18px #3d4c64;
                 }
             }
         }
@@ -818,7 +825,7 @@ div#particles-js {
                     top: 10px;
                 }
 
-                .gakko {
+                .technosoft {
                     width: 300px;
                     top: 50px;
                 }
@@ -871,7 +878,7 @@ div#particles-js {
                         height: 100px;
                     }
 
-                    .gakko {
+                    .technosoft {
                         top: 10px;
                     }
                 }
@@ -915,7 +922,7 @@ div#particles-js {
                         height: 80px;
                     }
 
-                    .gakko {
+                    .technosoft {
                         width: 230px;
                         top: 25px;
                         margin: 0;
@@ -948,7 +955,7 @@ div#particles-js {
                         width: 270px;
                     }
 
-                    .gakko {
+                    .technosoft {
                         width: 230px;
                     }
                 }
@@ -961,4 +968,159 @@ div#particles-js {
     margin-top: -20vw;
     position: relative;
     width: 100%;
+}
+
+.schedule {
+    font-family: Lato, sans-serif;
+    color: white;
+    padding: 90px 0;
+    @media (max-width: 950px) {
+        padding-bottom: 0;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 2em;
+        margin-top: 0;
+    }
+
+    .blocks {
+        width: fit-content;
+        margin: auto;
+
+        h4 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        h5 {
+            margin: 0 0 1em;
+            font-size: 1.5em;
+        }
+
+        @media (max-width: 450px) {
+            h4, h5 {
+                text-align: center;
+            }
+        }
+
+        .b.left {
+            float: left;
+            width: fit-content;
+            margin-right: 5em;
+        }
+
+        .b.right {
+            float: left;
+            width: fit-content;
+        }
+
+        @media (max-width: 950px) {
+            .b.left, .b.right {
+                float: none;
+                margin: 3em auto;
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 450px) {
+            .b.left, .b.right {
+                width: 90%;
+            }
+        }
+
+        .times {
+            span {
+                display: block;
+                line-height: 1.4;
+            }
+
+            b {
+                width: 100px;
+                display: inline-block;
+                text-align: right;
+                padding-right: 10px;
+
+                @media (max-width: 950px) {
+                    width: auto;
+                    text-align: left;
+                }
+            }
+        }
+    } 
+}
+
+.workshops {
+    font-family: Lato, sans-serif;
+    /*background-color: #45477D;*/
+    padding: 50px 20px 10px;
+    text-align: center;
+
+    h3 {
+        font-size: 2em;
+        color: white;
+        margin-top: 0;
+        padding-left: 15px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+        color: white;
+        font-size: 50px;
+        margin: 0 30px;
+    }
+
+    .card {
+        background-color: white;
+        border-radius: 15px;
+        padding: 20px;
+        display: inline-block;
+        height: 220px;
+        vertical-align: middle;
+        margin-bottom: 20px;
+        text-align: left;
+        color: black;
+
+        h4 {
+            font-size: 1.25em;
+            margin: 0 0 .5em;
+        }
+        
+        .img-title {
+            position: relative;
+            vertical-align: middle;
+            display: block;
+            width: 100%;
+
+            img {
+                width: 28%;
+                border-radius: 100%;
+                margin-top: 1em;
+                vertical-align: middle;
+                border: 1px solid gray;
+            }
+
+            span {
+                float: right;
+                width: 65%;
+                vertical-align: middle;
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 65%;
+                transform: translate(-50%, -50%);
+
+                p {
+                    margin: 0;
+
+                    &:nth-child(1) {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+        .desc {
+            margin-top: 1em;
+        }
+    }
 }

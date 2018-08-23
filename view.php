@@ -9,14 +9,16 @@
     <meta charset="UTF-8">
     <title>Imagine 2018</title>
     <link rel="icon" type="image/png" href="https://s3.amazonaws.com/imagine-2018/assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.1/particles.js"></script>
-    <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v2.css">
-    <link type="text/css" href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v4.css">
+    <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/main_v6.css" rel="stylesheet" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 
@@ -32,13 +34,12 @@
                 <li><a class="active" href="#home"><span></span></a></li>
                 <li><a href="#about"><span>About</span></a></li>
                 <li><a href="#event-info"><span>Event info</span></a></li>
-                <li style="display: none;"><a class="navigation__link" href="#schedule"><span>Schedule</span></a></li>
+                <li><a href="#schedule"><span>Schedule</span></a></li>
+                <li><a href="#workshops"><span>Workshops</span></a></li>
                 <li><a href="#speakers"><span>Speakers</span></a></li>
                 <li><a href="#faq"><span>FAQs</span></a></li>
                 <li><a href="#sponsors"><span>Sponsors</span></a></li>
-                <li><a  href="/registration"><span>Register</span></a></li>
-                <li><a  href="/login"><span>Login</span></a></li>
-                <li style="display: none;"><a href="/workshops"><span>Workshops</span></a></li>
+                <li><a  href="/application"><span>Application</span></a></li>
                 <li><a href="/history"><span>History</span></a></li>
             </ul>
 
@@ -77,9 +78,9 @@
                 <a class = "torchicon1 animated fadeIn" target = "_blank" href = "history"><img src = "https://s3.amazonaws.com/imagine-2018/assets/TorchWhite.png">View our history.</a>
             </div>
         </div>
-        <img class = "waves" src = "https://s3.amazonaws.com/imagine-2018/assets/Waves1.png" data-aos="fade-up" data-aos-duration="500" data-aos-delay = "100">
-        <img class = "waves" src = "https://s3.amazonaws.com/imagine-2018/assets/Waves2.png" data-aos="fade-up" data-aos-duration="500"">
-        <img class = "waves" src = "https://s3.amazonaws.com/imagine-2018/assets/Waves3.png" style="z-index: 9; position: relative;">
+        <img class = "waves" src = "assets/Waves1.png" data-aos="fade-up" data-aos-duration="500" data-aos-delay = "100">
+        <img class = "waves" src = "assets/Waves2.png" data-aos="fade-up" data-aos-duration="500"">
+        <img class = "waves" src = "assets/Waves3.png" style="z-index: 9; position: relative;">
         <div class = "whereandwhen page-section" id="event-info">
             <div class = "blocks">
                 <div class = "block planetbg">
@@ -99,25 +100,139 @@
                 </div>
             </div>
         </div>
-        <img style = "z-index: 9; margin-top: -6vw;" class = "wavesi" src = "https://s3.amazonaws.com/imagine-2018/assets/Waves3i.png"> 
-        <img style = "z-index: 8;" class = "wavesi" src = "https://s3.amazonaws.com/imagine-2018/assets/Waves2i.png" data-aos-offset = "-50" data-aos="fade-down" data-aos-duration="400">
-        <img class = "wavesi" src = "https://s3.amazonaws.com/imagine-2018/assets/Waves1i.png" data-aos="fade-down" data-aos-duration="400" data-aos-offset = "-30" data-aos-delay = "100">
+        <img style = "z-index: 9; margin-top: -6vw;" class = "wavesi" src = "assets/Waves3i.png"> 
+        <img style = "z-index: 8;" class = "wavesi" src = "assets/Waves2i.png" data-aos-offset = "-50" data-aos="fade-down" data-aos-duration="400">
+        <img class = "wavesi" src = "assets/Waves1i.png" data-aos="fade-down" data-aos-duration="400" data-aos-offset = "-30" data-aos-delay = "100">
+        
 
+        
         <div class = "gradient">
+            <div class = "schedule" id = "schedule">
+                <h3>SCHEDULE</h3>
+                    <div class = "blocks">
+                        <div class = "b left">
+                            <h4>DAY ONE</h4>
+                            <h5>SAT 29</h5>
+                            <div class="times">
+                                <span><b>8AM</b>  Check In</span>
+                                <span><b>9AM</b>  Opening Ceremony, Keynote: Eliot Horowitz</span>
+                                <span><b>10AM - 5PM</b>  Workshops/Talks/Activities</span>
+                                <span><b>12PM - 2PM</b>  Lunch (Staggered)</span>
+                                <span><b>5PM - 7PM</b>  Activities</span>
+                                <span><b>5PM - 7PM</b>  Dinner (Staggered)</span>
+                                <span><b>7:15PM</b>  Closing Keynote: Michael Geraghty</span>
+                            </div>
+                        </div>
+                        <div class = "b right">
+                            <h4>DAY TWO</h4>
+                            <h5>SAT 30</h5>
+                            <div class="times">
+                                <span><b>8AM</b>  Check In</span>
+                                <span><b>9AM</b>  Opening Keynote: Anthony Johnson</span>
+                                <span><b>10AM - 4PM</b>  Workshops/Talks/Activities</span>
+                                <span><b>12PM - 2PM</b>  Lunch (Staggered)</span>
+                                <span><b>4PM - 5PM</b>  Closing Ceremony, Keynote: Michał Borkowski</span>
+                            </div>
+                        </div>
+                        <div class="clear" style="clear: both;"></div>
+                    </div>
+                </div>
+            <div class="workshops" id = "workshops">
+                <h3>FEATURED WORKSHOPS</h3>
+                    <div class="owl-carousel">
+                        <div class="card">
+                            <h4>Building cool things with Google Maps</h4>
+                            <span><i class="fas fa-tag"></i> Beginner, API, Javascript</span>
+                            <div class="img-title">
+                                <img src="../assets/alain.png">
+                                <span>
+                                    <p>Alain Chautard</p>
+                                    <p>Expert Web Consultant @ Interstate 21</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h4>Learn to Speak Machine Learning</h4>
+                            <span><i class="fas fa-tag"></i> Talk, Beginner, ML/AI</span>
+                            <div class="img-title">
+                                <img src="../assets/yael.gif">
+                                <span>
+                                    <p>Yael Elmatad</p>
+                                    <p>Lead Data Scientist @ GIPHY</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h4>Intro to Web VR</h4>
+                            <span><i class="fas fa-tag"></i> Javascript, VR/Games</span>
+                            <div class="img-title">
+                                <img src="../assets/joshshadik.jpeg">
+                                <span>
+                                    <p>Josh Shadik</p>
+                                    <p>Developer @ Verizon Labs</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h4>Classic Arcade Games with p5.js</h4>
+                            <span><i class="fas fa-tag"></i> Beginner, Javascript</span>
+                            <div class="img-title">
+                                <img src="../assets/upperline-icon.png">
+                                <span>
+                                    <p>Upperline Code</p>
+                                    <p>Bootcamp</p>
+                                </span>
+                            </div>
+                        </div>
+                                <div class="card">
+                            <h4>Open Up to Open Source</h4>
+                            <span><i class="fas fa-tag"></i> Talk, Non-technical, Beginner</span>
+                            <div class="img-title">
+                                <img src="../assets/lavesha.jpg">
+                                <span>
+                                    <p>La Vesha Parker</p>
+                                    <p>Software Engineer @ Etsy</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h4>Creative data visualizations with SVG and D3.js</h4>
+                            <span><i class="fas fa-tag"></i> Art, Javascript, Data</span>
+                            <div class="img-title">
+                                <img src="../assets/shirleywu.jpeg">
+                                <span>
+                                    <p>Shirley Wu</p>
+                                    <p>NameData Visualization Freelancer</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h4>Software Test Automation with Java</h4>
+                            <span><i class="fas fa-tag"></i> QA, Java</span>
+                            <div class="img-title">
+                                <img src="../assets/technosoft-icon.png">
+                                <span>
+                                    <p>Technosoft</p>
+                                    <p>Bootcamp</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             <div class = "imgbg">
-                <img class = "cometbg" src = "https://s3.amazonaws.com/imagine-2018/assets/cometsbg.png">
+                <img class = "cometbg" src = "https://s3.amazonaws.com/imagine-2018/assets/cometsbg_new.png">
                 <div class = "featuredspeakers page-section" id="speakers">
-                    <h3 class = "animated fadeIn">FEATURED SPEAKERS</h3>
+                    <h3 class = "animated fadeIn">KEYNOTE SPEAKERS</h3>
                     <div class = "sbubbles">
                         <div class = "speaker o">
                             <img src = "https://s3.amazonaws.com/imagine-2018/assets/horowitz.jpg">
                             <p><b>Eliot Horowitz</b></p>
-                            <p>Co-Founder, MongoDB</p>
+                            <p>Co-Founder &amp; CTO, MongoDB</p>
                         </div>
                         <div class = "speaker e">
-                            <img src = "https://s3.amazonaws.com/imagine-2018/assets/kedar.jpg">
-                            <p><b>Ruth Kedar</b></p>
-                            <p>Creator of Google Logo</p>
+                            <img src = "assets/anthonyjohnson.jpg">
+                            <p><b>Anthony Johnson</b></p>
+                            <p>CTO, GIPHY</p>
                         </div>
                         <div class = "speaker o">
                             <img src = "https://s3.amazonaws.com/imagine-2018/assets/geraghty.jpg">
@@ -125,9 +240,9 @@
                             <p>Chief Information Security Officer, State of New Jersey</p>
                         </div>
                         <div class = "speaker e">
-                            <img src = "https://s3.amazonaws.com/imagine-2018/assets/yael.gif">
-                            <p><b>Yael Elmatad</b></p>
-                            <p>Lead Data Scientist, Giphy</p>
+                            <img src = "assets/michalborkowski.jpg">
+                            <p><b>Michał Borkowski</b></p>
+                            <p>CEO, Brainly</p>
                         </div>
                     </div>
                 </div>
@@ -151,7 +266,7 @@
                         </div>
                         <div class = "faq-col r">
                             <h4>Who can attend?</h4>
-                            <p>Imagine is open to all high school and undergraduate students of all backgrounds and experience levels - just don’t forget to fill out our application. If you don’t fit this category but would still like to attend, reach out to us and consider coming as a mentor or volunteer!</p>
+                            <p>Imagine is open to all high school and undergraduate students of all backgrounds and experience levels - just don’t forget to fill out our application. If you don’t fit this category but would still like to attend, reach out to us and consider coming as a mentor or volunteer! NOTE: Imagine will not be overnight this year. However, it is still a two day event.</p>
                         </div>
                         <div class="clear" style="clear: both;"></div>
                     </div>
@@ -194,7 +309,7 @@
                             <a target="_blank" href = "https://www.twilio.com/"><img src="https://s3.amazonaws.com/imagine-2018/assets/twilio.png" class="twilio"></a>
                         </div>
                         <div class = "row">
-                            <a target="_blank" href = "https://www.gakkoproject.com/"><img src="https://s3.amazonaws.com/imagine-2018/assets/gakko.png" class="gakko"></a>
+                            <a target="_blank" href = "https://technosoftacademy.io/"><img src="assets/technosoft.png" class="technosoft"></a>
                             <a target="_blank" href = "https://www.janestreet.com/"><img src="https://s3.amazonaws.com/imagine-2018/assets/janestreet.png" class="janestreet"></a>
                         </div>
                         <div class = "row">
@@ -215,7 +330,8 @@
 
                     <div class = "imgend">
                         <img src = "https://s3.amazonaws.com/imagine-2018/assets/planet1.png">
-                        <h3>IMAGINE 2018</h3>
+                        <h3>IMAGINE 2018</h3><br>
+                        <a href="/code-of-conduct">Our Code of Conduct</a>
                     </div>
                 </div>
             </div>
@@ -225,6 +341,7 @@
         AOS.init();
     </script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script type="text/javascript" src ="https://codyhouse.co/demo/stretchy-navigation/js/modernizr.js"></script>
     <script type="text/javascript" src="scroll.js"></script>
     <script type="text/javascript" src="nav.js"></script>

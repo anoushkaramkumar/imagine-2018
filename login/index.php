@@ -8,7 +8,7 @@ $email_err = $password_err = "";
 
 session_start();
 if (isset($_SESSION['id'])) {
-    header("location: welcome.php");
+    header("location: ../application");
 }
  
 // Processing form data when form is submitted
@@ -61,7 +61,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION['password'] = $password;
                             $_SESSION['name'] = $name;
                             $_SESSION['id'] = $uid;
-                            header("location: welcome.php");
+                            header("location: ../application");
                         } else{
                             // Display an error message if password is not valid
                             $password_err = 'The password you entered was not valid.';

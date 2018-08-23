@@ -11,7 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.1/particles.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/ogv1wzn.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v2.css">
+    <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v4.css">
     <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/main_v3.css" rel="stylesheet" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
@@ -25,16 +25,15 @@
             </a>
 
             <ul>
-                <li><a href="/"><span></span></a></li>
+                <li><a href="/#home"><span></span></a></li>
                 <li><a href="/#about"><span>About</span></a></li>
                 <li><a href="/#event-info"><span>Event info</span></a></li>
-                <li style="display: none;"><a class="navigation__link" href="#schedule"><span>Schedule</span></a></li>
+                <li><a href="/#schedule"><span>Schedule</span></a></li>
+                <li><a href="/#workshops"><span>Workshops</span></a></li>
                 <li><a href="/#speakers"><span>Speakers</span></a></li>
                 <li><a href="/#faq"><span>FAQs</span></a></li>
                 <li><a href="/#sponsors"><span>Sponsors</span></a></li>
-                <li><a href="/registration"><span>Register</span></a></li>
-                <li><a href="/login"><span>Login</span></a></li>
-                <li style="display: none;"><a href="/workshops"><span>Workshops</span></a></li>
+                <li><a  href="/application"><span>Application</span></a></li>
                 <li><a href="/history"><span>History</span></a></li>
             </ul>
 
@@ -133,7 +132,7 @@
             bottom: 0;
             text-align: center;
             margin: auto;
-            z-index: 999999;
+            z-index: 98;
         }
 
         div#particles-js {
