@@ -18,7 +18,7 @@
     <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.1/particles.js"></script>
     <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v4.css">
-    <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/main_v6.css" rel="stylesheet" />
+    <link type="text/css" href="/css/main_v6.css" rel="stylesheet" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 
@@ -140,20 +140,36 @@
             <div class="workshops" id = "workshops">
                 <h3>FEATURED WORKSHOPS</h3>
                     <div class="owl-carousel">
-                        <div class="card">
-                            <h4>Building cool things with Google Maps</h4>
-                            <span><i class="fas fa-tag"></i> Beginner, API, Javascript</span>
-                            <div class="img-title">
-                                <img src="../assets/alain.png">
-                                <span>
-                                    <p>Alain Chautard</p>
-                                    <p>Expert Web Consultant @ Interstate 21</p>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <h4>Learn to Speak Machine Learning</h4>
-                            <span><i class="fas fa-tag"></i> Talk, Beginner, ML/AI</span>
+
+<div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <div class="inner">
+            <h4>Building cool things with Google Maps</h4>
+             <span><i class="fas fa-tag"></i> Beginner, Javascript, API</span>
+            <div class="img-title">
+                <img src="../assets/alain.png">
+                <span>
+                    <p>Alain Chautard</p>
+                    <p>Expert Web Consultant @ Interstate 21</p>
+                </span>
+            </div>
+        </div>
+        </div>
+        <div class="back">
+            <div class="inner">
+           <p>Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. Wraith talk. Wraith talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Celebrate success right, the only way, apple.</p>
+           </div>
+        </div>
+    </div>
+</div>
+
+<div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <div class="inner">
+            <h4>Learn to Speak Machine Learning</h4>
+                <span><i class="fas fa-tag"></i> Talk, Beginner, ML/AI</span>
                             <div class="img-title">
                                 <img src="../assets/yael.gif">
                                 <span>
@@ -161,9 +177,21 @@
                                     <p>Lead Data Scientist @ GIPHY</p>
                                 </span>
                             </div>
-                        </div>
-                        <div class="card">
-                            <h4>Intro to Web VR</h4>
+        </div>
+        </div>
+        <div class="back">
+            <div class="inner">
+           <p>Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. Wraith talk. Wraith talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Celebrate success right, the only way, apple.</p>
+           </div>
+        </div>
+    </div>
+</div>
+
+<div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <div class="inner">
+              <h4>Intro to Web VR</h4>
                             <span><i class="fas fa-tag"></i> Javascript, VR/Games</span>
                             <div class="img-title">
                                 <img src="../assets/joshshadik.jpeg">
@@ -172,10 +200,23 @@
                                     <p>Developer @ Verizon Labs</p>
                                 </span>
                             </div>
-                        </div>
-                        <div class="card">
-                            <h4>Classic Arcade Games with p5.js</h4>
-                            <span><i class="fas fa-tag"></i> Beginner, Javascript</span>
+        </div>
+        </div>
+        <div class="back">
+            <div class="inner">
+           <p>Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. Wraith talk. Wraith talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Celebrate success right, the only way, apple.</p>
+           </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <div class="inner">
+           <h4>Classic Arcade Games with p5.js</h4>
+                            <span><i class="fas fa-tag"></i> Beginner,Javascript</span>
                             <div class="img-title">
                                 <img src="../assets/upperline-icon.png">
                                 <span>
@@ -183,9 +224,21 @@
                                     <p>Bootcamp</p>
                                 </span>
                             </div>
-                        </div>
-                                <div class="card">
-                            <h4>Open Up to Open Source</h4>
+        </div>
+        </div>
+        <div class="back">
+            <div class="inner">
+           <p>Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. Wraith talk. Wraith talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Celebrate success right, the only way, apple.</p>
+           </div>
+        </div>
+    </div>
+</div>
+                       
+<div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <div class="inner">
+           <h4>Open Up to Open Source</h4>
                             <span><i class="fas fa-tag"></i> Talk, Non-technical, Beginner</span>
                             <div class="img-title">
                                 <img src="../assets/lavesha.jpg">
@@ -194,29 +247,62 @@
                                     <p>Software Engineer @ Etsy</p>
                                 </span>
                             </div>
-                        </div>
-                        <div class="card">
-                            <h4>Creative data visualizations with SVG and D3.js</h4>
+        </div>
+        </div>
+        <div class="back">
+            <div class="inner">
+           <p>Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. Wraith talk. Wraith talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Celebrate success right, the only way, apple.</p>
+           </div>
+        </div>
+    </div>
+</div>
+                             
+<div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <div class="inner">
+           <h4>Creative data visualizations with SVG and D3.js</h4>
                             <span><i class="fas fa-tag"></i> Art, Javascript, Data</span>
                             <div class="img-title">
                                 <img src="../assets/shirleywu.jpeg">
                                 <span>
                                     <p>Shirley Wu</p>
-                                    <p>NameData Visualization Freelancer</p>
+                                    <p>Data Visualization Freelancer</p>
                                 </span>
                             </div>
-                        </div>
-                        <div class="card">
-                            <h4>Software Test Automation with Java</h4>
-                            <span><i class="fas fa-tag"></i> QA, Java</span>
-                            <div class="img-title">
-                                <img src="../assets/technosoft-icon.png">
+        </div>
+        </div>
+        <div class="back">
+            <div class="inner">
+           <p>Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. Wraith talk. Wraith talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Celebrate success right, the only way, apple.</p>
+           </div>
+        </div>
+    </div>
+</div>
+
+<div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
+    <div class="flipper">
+        <div class="front">
+            <div class="inner">
+                <h4>Let's Make a Twitter Bot!</h4>
+                            <span><i class="fas fa-tag"></i> Beginner, Bots, Art</span>
+            <div class="img-title">
+                                <img src="../assets/cassietarakajian.jpeg">
                                 <span>
-                                    <p>Technosoft</p>
-                                    <p>Bootcamp</p>
+                                    <p>Cassie Tarakajian</p>
+                                    <p>Software dev, Processing Foundation</p>
                                 </span>
                             </div>
-                        </div>
+        </div>
+        </div>
+        <div class="back">
+            <div class="inner">
+           <p>Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. Wraith talk. Wraith talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Celebrate success right, the only way, apple.</p>
+           </div>
+        </div>
+    </div>
+</div>
+
                     </div>
                 </div>
             <div class = "imgbg">
@@ -347,6 +433,7 @@
     <script type="text/javascript" src="nav.js"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="particles.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
     <script src="app.js"></script>
 
 </body>
