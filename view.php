@@ -248,8 +248,7 @@
                         <div class="clear" style="clear: both;"></div>
                     </div>
                 </div>
-<<<<<<< HEAD
-=======
+
             <div class="workshops" id = "workshops">
                 <h3>FEATURED WORKSHOPS</h3>
                     <div class="owl-carousel">
@@ -494,7 +493,6 @@ I am now a director of an organization that serves as a nexus point of open sour
                         </div>
                     </div>
                 </div>
->>>>>>> d0fe65330c4753eec385399636b2b91641ad95eb
                 <div class = "faq page-section" id="faq">
                     <h3 class = "animated fadeIn">FAQ</h3>
                     <div class = "row">
