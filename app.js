@@ -74,3 +74,5 @@ $(".owl-carousel").owlCarousel({
         }
     }
 });
+
+// document.querySelector("#myCard").classList.toggle("flip")
