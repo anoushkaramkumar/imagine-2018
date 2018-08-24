@@ -107,7 +107,118 @@
 
         
         <div class = "gradient">
-            <div class = "schedule" id = "schedule">
+            <div class = "featuredspeakers page-section" id="speakers">
+                <h3 class = "animated fadeIn">KEYNOTE SPEAKERS</h3>
+                <div class = "sbubbles">
+                    <div class = "speaker o">
+                        <img src = "https://s3.amazonaws.com/imagine-2018/assets/horowitz.jpg">
+                        <p><b>Eliot Horowitz</b></p>
+                        <p>Co-Founder &amp; CTO, MongoDB</p>
+                    </div>
+                    <div class = "speaker e">
+                        <img src = "assets/anthonyjohnson.jpg">
+                        <p><b>Anthony Johnson</b></p>
+                        <p>CTO, GIPHY</p>
+                    </div>
+                    <div class = "speaker o">
+                        <img src = "https://s3.amazonaws.com/imagine-2018/assets/geraghty.jpg">
+                        <p><b>Michael Geraghty</b></p>
+                        <p>Chief Information Security Officer, State of New Jersey</p>
+                    </div>
+                    <div class = "speaker e">
+                        <img src = "assets/michalborkowski.jpg">
+                        <p><b>Michał Borkowski</b></p>
+                        <p>CEO, Brainly</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="workshops" id = "workshops">
+                <h3>FEATURED WORKSHOPS</h3>
+                <div class="owl-carousel">
+                    <div class="card">
+                        <h4>Building cool things with Google Maps</h4>
+                        <span><i class="fas fa-tag"></i> Beginner, API, Javascript</span>
+                        <div class="img-title">
+                            <img src="../assets/alain.png">
+                            <span>
+                                <p>Alain Chautard</p>
+                                <p>Expert Web Consultant @ Interstate 21</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Learn to Speak Machine Learning</h4>
+                        <span><i class="fas fa-tag"></i> Talk, Beginner, ML/AI</span>
+                        <div class="img-title">
+                            <img src="../assets/yael.gif">
+                            <span>
+                                <p>Yael Elmatad</p>
+                                <p>Lead Data Scientist @ GIPHY</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Intro to Web VR</h4>
+                        <span><i class="fas fa-tag"></i> Javascript, VR/Games</span>
+                        <div class="img-title">
+                            <img src="../assets/joshshadik.jpeg">
+                            <span>
+                                <p>Josh Shadik</p>
+                                <p>Developer @ Verizon Labs</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Classic Arcade Games with p5.js</h4>
+                        <span><i class="fas fa-tag"></i> Beginner, Javascript</span>
+                        <div class="img-title">
+                            <img src="../assets/upperline-icon.png">
+                            <span>
+                                <p>Upperline Code</p>
+                                <p>Bootcamp</p>
+                            </span>
+                        </div>
+                    </div>
+                            <div class="card">
+                        <h4>Open Up to Open Source</h4>
+                        <span><i class="fas fa-tag"></i> Talk, Non-technical, Beginner</span>
+                        <div class="img-title">
+                            <img src="../assets/lavesha.jpg">
+                            <span>
+                                <p>La Vesha Parker</p>
+                                <p>Software Engineer @ Etsy</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Creative data visualizations with SVG and D3.js</h4>
+                        <span><i class="fas fa-tag"></i> Art, Javascript, Data</span>
+                        <div class="img-title">
+                            <img src="../assets/shirleywu.jpeg">
+                            <span>
+                                <p>Shirley Wu</p>
+                                <p>NameData Visualization Freelancer</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Software Test Automation with Java</h4>
+                        <span><i class="fas fa-tag"></i> QA, Java</span>
+                        <div class="img-title">
+                            <img src="../assets/technosoft-icon.png">
+                            <span>
+                                <p>Technosoft</p>
+                                <p>Bootcamp</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "imgbg">
+                <img class = "cometbg" src = "https://s3.amazonaws.com/imagine-2018/assets/cometsbg_new.png">
+                <div class = "schedule" id = "schedule">
                 <h3>SCHEDULE</h3>
                     <div class = "blocks">
                         <div class = "b left">
@@ -135,115 +246,6 @@
                             </div>
                         </div>
                         <div class="clear" style="clear: both;"></div>
-                    </div>
-                </div>
-            <div class="workshops" id = "workshops">
-                <h3>FEATURED WORKSHOPS</h3>
-                    <div class="owl-carousel">
-                        <div class="card">
-                            <h4>Building cool things with Google Maps</h4>
-                            <span><i class="fas fa-tag"></i> Beginner, API, Javascript</span>
-                            <div class="img-title">
-                                <img src="../assets/alain.png">
-                                <span>
-                                    <p>Alain Chautard</p>
-                                    <p>Expert Web Consultant @ Interstate 21</p>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <h4>Learn to Speak Machine Learning</h4>
-                            <span><i class="fas fa-tag"></i> Talk, Beginner, ML/AI</span>
-                            <div class="img-title">
-                                <img src="../assets/yael.gif">
-                                <span>
-                                    <p>Yael Elmatad</p>
-                                    <p>Lead Data Scientist @ GIPHY</p>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <h4>Intro to Web VR</h4>
-                            <span><i class="fas fa-tag"></i> Javascript, VR/Games</span>
-                            <div class="img-title">
-                                <img src="../assets/joshshadik.jpeg">
-                                <span>
-                                    <p>Josh Shadik</p>
-                                    <p>Developer @ Verizon Labs</p>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <h4>Classic Arcade Games with p5.js</h4>
-                            <span><i class="fas fa-tag"></i> Beginner, Javascript</span>
-                            <div class="img-title">
-                                <img src="../assets/upperline-icon.png">
-                                <span>
-                                    <p>Upperline Code</p>
-                                    <p>Bootcamp</p>
-                                </span>
-                            </div>
-                        </div>
-                                <div class="card">
-                            <h4>Open Up to Open Source</h4>
-                            <span><i class="fas fa-tag"></i> Talk, Non-technical, Beginner</span>
-                            <div class="img-title">
-                                <img src="../assets/lavesha.jpg">
-                                <span>
-                                    <p>La Vesha Parker</p>
-                                    <p>Software Engineer @ Etsy</p>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <h4>Creative data visualizations with SVG and D3.js</h4>
-                            <span><i class="fas fa-tag"></i> Art, Javascript, Data</span>
-                            <div class="img-title">
-                                <img src="../assets/shirleywu.jpeg">
-                                <span>
-                                    <p>Shirley Wu</p>
-                                    <p>NameData Visualization Freelancer</p>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <h4>Software Test Automation with Java</h4>
-                            <span><i class="fas fa-tag"></i> QA, Java</span>
-                            <div class="img-title">
-                                <img src="../assets/technosoft-icon.png">
-                                <span>
-                                    <p>Technosoft</p>
-                                    <p>Bootcamp</p>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <div class = "imgbg">
-                <img class = "cometbg" src = "https://s3.amazonaws.com/imagine-2018/assets/cometsbg_new.png">
-                <div class = "featuredspeakers page-section" id="speakers">
-                    <h3 class = "animated fadeIn">KEYNOTE SPEAKERS</h3>
-                    <div class = "sbubbles">
-                        <div class = "speaker o">
-                            <img src = "https://s3.amazonaws.com/imagine-2018/assets/horowitz.jpg">
-                            <p><b>Eliot Horowitz</b></p>
-                            <p>Co-Founder &amp; CTO, MongoDB</p>
-                        </div>
-                        <div class = "speaker e">
-                            <img src = "assets/anthonyjohnson.jpg">
-                            <p><b>Anthony Johnson</b></p>
-                            <p>CTO, GIPHY</p>
-                        </div>
-                        <div class = "speaker o">
-                            <img src = "https://s3.amazonaws.com/imagine-2018/assets/geraghty.jpg">
-                            <p><b>Michael Geraghty</b></p>
-                            <p>Chief Information Security Officer, State of New Jersey</p>
-                        </div>
-                        <div class = "speaker e">
-                            <img src = "assets/michalborkowski.jpg">
-                            <p><b>Michał Borkowski</b></p>
-                            <p>CEO, Brainly</p>
-                        </div>
                     </div>
                 </div>
                 <div class = "faq page-section" id="faq">

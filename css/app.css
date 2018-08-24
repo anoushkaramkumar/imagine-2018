@@ -9,7 +9,7 @@ body {
   @media (max-width: 500px) {
     .container {
       padding: 5%; } }
-  .container a {
+  .container a, .container .form .save {
     font-family: "Lato";
     cursor: pointer;
     color: #151642;
@@ -20,8 +20,10 @@ body {
     text-align: center;
     display: block;
     width: fit-content;
-    margin: 20px 0; }
-    .container a:hover {
+    margin: 20px 10px 20px 0;
+    border-bottom: none;
+    display: inline; }
+    .container a:hover, .container .form .save:hover {
       background: #DDD !important; }
   .container .top {
     color: white;
@@ -71,23 +73,24 @@ body {
       fill: white;
       font-family: "Lato";
       font-size: 2.3em; }
-    .container .progress input[type="submit"] {
+    .container .progress a {
       cursor: pointer;
       color: #151642;
       background-color: #e0e0e0b5;
       font-weight: 900;
       padding: 7px;
       border: none;
+      text-decoration: none;
       font-size: 1.1em;
       font-family: "Lato";
       display: block;
       margin: 10px 0;
-      width: 100%;
+      width: 106px;
       outline: none; }
-      .container .progress input[type="submit"]:hover {
+      .container .progress a:hover {
         background: #DDD !important; }
       @media (max-width: 870px) {
-        .container .progress input[type="submit"] {
+        .container .progress a {
           display: inline-block;
           width: 70%;
           padding: 10px 20px;

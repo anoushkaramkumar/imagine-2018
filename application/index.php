@@ -9,9 +9,7 @@ if (isset($_SESSION['id']) ) {
 
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		$value = $_POST['submit'];
-		$name = $_POST['name'];
 		$age = $_POST['age'];
-		$email = $_POST['email'];
 		$tshirt = $_POST['tshirt'];
 		$school = $_POST['school'];
 		$gender = (isset($_POST['gender'])) ? $_POST['gender'] : '';
@@ -26,11 +24,11 @@ if (isset($_SESSION['id']) ) {
 
 		if ($value == "Save") {
 			mysqli_query($con, "UPDATE application
-			SET name = '$name', age = '$age', email = '$email', tshirt = '$tshirt', school = '$school', gender = '$gender', diet = '$diet', parent_name = '$parent_name', parent_email = '$parent_email', ques1 = '$ques1', ques2 = '$ques2', ques3 = '$ques3', ques4 = '$ques4'
+			SET age = '$age', tshirt = '$tshirt', school = '$school', gender = '$gender', diet = '$diet', parent_name = '$parent_name', parent_email = '$parent_email', ques1 = '$ques1', ques2 = '$ques2', ques3 = '$ques3', ques4 = '$ques4'
 			WHERE id = '$id';") or die(mysqli_error());
 		} else if ($value == "Submit") {
 			mysqli_query($con, "UPDATE application
-			SET name = '$name', age = '$age', email = '$email', tshirt = '$tshirt', school = '$school', gender = '$gender', diet = '$diet', parent_name = '$parent_name', parent_email = '$parent_email', ques1 = '$ques1', ques2 = '$ques2', ques3 = '$ques3', ques4 = '$ques4', submit = 1
+			SET age = '$age', tshirt = '$tshirt', school = '$school', gender = '$gender', diet = '$diet', parent_name = '$parent_name', parent_email = '$parent_email', ques1 = '$ques1', ques2 = '$ques2', ques3 = '$ques3', ques4 = '$ques4', submit = 1
 			WHERE id = '$id';") or die(mysqli_error());
 		} else {
 

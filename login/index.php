@@ -58,7 +58,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             save the email to the session */
                             
                             $_SESSION['email'] = $email;
-                            $_SESSION['password'] = $password;
                             $_SESSION['name'] = $name;
                             $_SESSION['id'] = $uid;
                             header("location: ../application");

@@ -1,3 +1,73 @@
+<?php
+// Include config file
+require_once '../db.php';
+include_once '../registration/inc/php/functions.php';
+
+// Define variables and initialize with empty values
+$email = $password = "";
+$message = $email_err = $password_err = "";
+
+session_start();
+if (isset($_SESSION['id'])) {
+    header("location: ../application");
+}
+ 
+// Processing form data when form is submitted
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+ 
+    if(empty(trim($_POST["email"]))){
+        $email_err = "Please enter an email.";
+    } else if (!filter_var(trim($_POST["email"]), FILTER_VALIDATE_EMAIL)) {
+        $email_err = "Email not valid. Please enter valid email.";
+    } else {
+        $query = sprintf("SELECT id FROM users WHERE email = '%s'",
+        mysqli_real_escape_string($con, trim($_POST["email"])));
+        $result = mysqli_query($con, $query);
+        
+       if(mysqli_num_rows($result) == 0) {
+            $email_err = "This email is not in our database.";
+        } else {
+            $email = trim($_POST["email"]);
+        }
+    }
+
+    // Validate credentials
+    if(empty($email_err)){
+        $password = rand(999999, 9999999);
+        $password_hash = password_hash($password, PASSWORD_DEFAULT);
+
+        $sql = "UPDATE users SET password = ? WHERE email = ?";
+
+        if($stmt = mysqli_prepare($con, $sql)){
+            mysqli_stmt_bind_param($stmt, "ss", $param_password, $param_email);
+            
+            $param_password = $password_hash;
+            $param_email = $email;
+            
+            if(mysqli_stmt_execute($stmt)){ 
+                include_once '../registration/inc/php/swift/swift_required.php';
+                $info = array(
+                    'name' => $_SESSION['name'],
+                    'email' => $email,
+                    'password' => $password);
+
+                if(send_password($info)) {
+                    $message = "Email sent. You will get a new password to reset after logging in.";
+                } else{
+                    $message = "Could not send email.";
+                }
+            } else{
+                echo "Something went wrong. Please try again later.";
+            }
+        }
+    }
+    
+    // Close connection
+    mysqli_close($con);
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,22 +106,16 @@
     </header>
 
     <div id="particles-js" class="wrapper">
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-            <h2>LOGIN</h2>
+        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
+            <h2>FORGOT PASSWORD</h2>
             <div class="form-group <?php echo (!empty($email_err)) ? 'has-error' : ''; ?>">
                 <input placeholder = "Email" type="text" name="email" class="form-control" value="<?php echo $email; ?>">
                 <div class="help-block"><?php echo $email_err; ?></div>
             </div>    
-            <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-                <input placeholder = "Password"  type="password" name="password" class="form-control">
-                <div class="help-block"><?php echo $password_err; ?></div>
-            </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Login">
+                <input type="submit" class="btn btn-primary" value="Send Email">
             </div>
-
-            <div class="email-msg"><a style="color:white;" href = "/registration">Don't have an account?</a></div>
-            <div class="email-msg" style="text-align: right; margin-top: -20px; margin-right: 12px;"><a style="color:white;" href = "forgotpassword.php">Forgot password?</a></div>
+            <div class="email-msg"><?php echo $message; ?></div>
         </form>
         <div id="container">
             <section class = "animated fadeIn" id="wrapper">

@@ -1,0 +1,8 @@
+Hi hacker!
+
+Your new password is: {PASSWORD}
+
+Please login at https://imagine.hackbca.com/login and change your password.
+
+Thanks,
+the hackBCA team

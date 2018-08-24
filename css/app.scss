@@ -13,7 +13,7 @@ body {
         padding: 5%;
     }
 
-	a {
+	a, .form .save {
     	font-family: "Lato";
 	    cursor: pointer;
 	    color: #151642;
@@ -24,7 +24,9 @@ body {
 	    text-align: center;
 	    display: block;
 	    width: fit-content;
-	    margin: 20px 0;
+	    margin: 20px 10px 20px 0;
+	    border-bottom: none;
+	    display: inline;
 
 	    &:hover {
 		    background: #DDD !important;
@@ -101,18 +103,19 @@ body {
 		    font-size: 2.3em;
 	    }
 
-	    input[type="submit"] {
+	    a {
 		    cursor: pointer;
 		    color: #151642;
 		    background-color: #e0e0e0b5;
 		    font-weight: 900;
 		    padding: 7px;
 		    border: none;
+		    text-decoration: none;
 		    font-size: 1.1em;
 		    font-family: "Lato";
 		    display: block;
 		    margin: 10px 0;
-		    width: 100%;
+		    width: 106px;
 		    outline: none;
 
 		    &:hover {

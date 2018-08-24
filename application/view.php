@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/ogv1wzn.css">
     <link rel="stylesheet" type="text/css" href="../loading-bar.css"/>
     <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v4.css">
-    <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/app.css" rel="stylesheet" />
+    <link type="text/css" href="../css/app.css" rel="stylesheet" />
 </head>
 
 <body class="page-section" >
@@ -68,7 +68,8 @@
 				</svg>
 		    	<p>Application</p>
 
-		    	<input type="submit" name = "submit" value="Save">
+		    	<a href = "settings.php">Settings</a>
+		    	<a href = "../login/logout.php">Logout</a>
 <!-- 		    	<input type="submit" name = "submit" value="Submit">
  -->	    	</div>
 	    </div>
@@ -78,15 +79,9 @@
 	    <div class = "form">
 		    
 			    <div class = "general-info">
-			    	<br><label>Name *</label><br>
-			    	<input class="req <?php echo (strlen($name) > 0)?'counted':'' ?>" type="text" name="name" value = "<?php echo $name;?>">
-
 			    	<br><label>Age *</label><br>
 			    	<input class="req <?php echo (strlen($age) > 0)?'counted':'' ?>" type="text" name="age" value = "<?php echo $age;?>">
-
-			    	<br><label>Email *</label><br>
-			    	<input class="req <?php echo (strlen($email) > 0)?'counted':'' ?>" type="email" name="email" value = "<?php echo $email;?>">
-
+			    	
 			    	<br><label>T-Shirt Size *</label><br>
 			    	<ul class="radio-list1 <?php echo (strlen($tshirt) > 0)?'checked':'' ?>">
 					    <li>
@@ -143,7 +138,7 @@
 
 			    	<br><label>Parent/Guardian Email *</label><br>
 			    	<input class="req <?php echo (strlen($parent_email) > 0)?'counted':'' ?>" type="email" name="parent_email" value = "<?php echo $parent_email;?>">
-			   	 <br><a class = "gi2a">Step 2: Application</a>
+			   	 <br><a class = "gi2a">Step 2: Application</a><input class="save" type="submit" name = "submit" value="Save">
 			    </div>
 
 			    <div class = "application">
@@ -158,7 +153,8 @@
 
 			    	<br><label>Have you been to hackathons/technology events in the past? If so, which ones?</label><br>
 			    	<textarea class="req <?php echo (strlen($ques4) > 0)?'counted':'' ?>" name="ques4"><?php echo $ques4;?></textarea>
-			    	<br><a class = "a2gi">Step 1: General Info</a>
+			    	<br><a class = "a2gi">Step 1: General Info</a><input class="save" type="submit" name = "submit" value="Save">
+
 			    </div>
 			    
 			</form>
