@@ -768,6 +768,9 @@ div#particles-js {
   padding: 50px 20px 10px;
   text-align: center;
   /* flip the pane when hovered */
+  /*&.hover .flipper, &.flip .flipper {
+      transform: rotateY(180deg);
+  }*/
   /* flip speed goes here */
   /* hide back of pane during swap */
   /* front pane, placed above back */
@@ -889,19 +892,39 @@ div#particles-js {
     color: white;
     font-size: 50px;
     margin: 0 30px; }
-  .workshops .flip-container {
-    perspective: 1000px;
-    color: black; }
-  .workshops .flip-container:hover .flipper, .workshops .flip-container.hover .flipper {
+  .workshops .flip-container.hover .flipper, .workshops .flip-container.flip .flipper {
     transform: rotateY(180deg); }
+  .workshops .flip-container {
+    perspective: 0;
+    color: black; }
+    .workshops .flip-container .frontbtn {
+      border: none;
+      font-size: 18px;
+      background: none;
+      text-align: right;
+      cursor: pointer;
+      padding-left: 0;
+      position: absolute;
+      bottom: 10px;
+      left: 20px; }
+    .workshops .flip-container .backbtn {
+      background: none;
+      border: none;
+      font-size: 25px;
+      margin: 0 auto;
+      display: block;
+      cursor: pointer; }
   .workshops .flip-container, .workshops .front, .workshops .back {
     /* width: 320px;*/
-    height: 215px; }
+    height: 245px; }
   .workshops .flipper {
     transition: 0.6s;
     transform-style: preserve-3d;
     padding: 20px;
     position: relative; }
+  .workshops .back p {
+    height: 150px;
+    overflow-y: scroll; }
   .workshops .front, .workshops .back {
     backface-visibility: hidden;
     border-radius: 15px;

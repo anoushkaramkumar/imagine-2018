@@ -1124,18 +1124,43 @@ div#particles-js {
         margin: 0 30px;
     }
 
+.flip-container.hover .flipper, .flip-container.flip .flipper {
+    transform: rotateY(180deg);
+}
+
 .flip-container {
-    perspective: 1000px;
+    perspective: 0;
     color: black;
+
+    .frontbtn {
+        border: none;
+        font-size: 18px;
+        background: none;
+        text-align: right;
+        cursor: pointer;
+        padding-left: 0;
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+    }
+
+    .backbtn {
+        background: none;
+        border: none;
+        font-size: 25px;
+        margin: 0 auto;
+        display: block;
+        cursor: pointer;
+    }
 }
     /* flip the pane when hovered */
-    .flip-container:hover .flipper, .flip-container.hover .flipper {
+    /*&.hover .flipper, &.flip .flipper {
         transform: rotateY(180deg);
-    }
+    }*/
 
 .flip-container, .front, .back {
    /* width: 320px;*/
-    height: 215px;
+    height: 245px;
 }
 
 /* flip speed goes here */
@@ -1144,6 +1169,11 @@ div#particles-js {
     transform-style: preserve-3d;
      padding: 20px;
     position: relative;
+}
+
+.back p {
+    height: 150px;
+    overflow-y: scroll;
 }
 
 /* hide back of pane during swap */
@@ -1162,6 +1192,8 @@ div#particles-js {
 
     .inner {
         padding: 20px;
+
+
     }
     h4 {
                 font-size: 1.25em;

@@ -141,7 +141,7 @@
                 <h3>FEATURED WORKSHOPS</h3>
                     <div class="owl-carousel">
 
-<div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
+<div class="card flip-container" id = "flip-toggle1">
     <div class="flipper">
         <div class="front">
             <div class="inner">
@@ -154,64 +154,77 @@
                     <p>Expert Web Consultant @ Interstate 21</p>
                 </span>
             </div>
+            <button class = "frontbtn" onclick="document.querySelector('#flip-toggle1').classList.toggle('hover');" class="sexyButton"><i class="fas fa-info-circle"></i></button>
         </div>
+
         </div>
         <div class="back">
             <div class="inner">
-           <p>Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. Wraith talk. Wraith talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Celebrate success right, the only way, apple.</p>
+                <button class="backbtn" onclick="document.querySelector('#flip-toggle1').classList.toggle('hover');" class="sexyButton"><i class="fas fa-undo-alt"></i></button>
+           <p>Alain Chautard will go through an introduction to the Angular framework to build web applications. If you don't know anything about Angular, that's a perfect opportunity to learn all of the basics and get you started with the framework! Alain will talk about TypeScript, components, services, pipes, and how to work with Angular CLI through live coding.
+
+More specifically, we are going to understand how Angular works and how it runs in a browser. We're also going to talk about Angular CLI, a tool to help scaffold an Angular application.
+
+
+This presentation will be packed with examples to help understand how easy it is to write Angular web applications.You will also get to practice and build your own application.</p>
+
            </div>
         </div>
     </div>
 </div>
 
-<div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
+<div class="card flip-container" id = "flip-toggle2">
     <div class="flipper">
         <div class="front">
             <div class="inner">
             <h4>Learn to Speak Machine Learning</h4>
                 <span><i class="fas fa-tag"></i> Talk, Beginner, ML/AI</span>
-                            <div class="img-title">
-                                <img src="../assets/yael.gif">
-                                <span>
-                                    <p>Yael Elmatad</p>
-                                    <p>Lead Data Scientist @ GIPHY</p>
-                                </span>
-                            </div>
+                <div class="img-title">
+                    <img src="../assets/yael.gif">
+                    <span>
+                        <p>Yael Elmatad</p>
+                        <p>Lead Data Scientist @ GIPHY</p>
+                    </span>
+                </div>
+                <button class = "frontbtn" onclick="document.querySelector('#flip-toggle2').classList.toggle('hover');" class="sexyButton"><i class="fas fa-info-circle"></i></button>
         </div>
         </div>
         <div class="back">
             <div class="inner">
-           <p>Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. Wraith talk. Wraith talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Celebrate success right, the only way, apple.</p>
+                <button class="backbtn" onclick="document.querySelector('#flip-toggle2').classList.toggle('hover');" class="sexyButton"><i class="fas fa-undo-alt"></i></button>
+           <p>Yael will go through some of the basic concepts in ML from features to deep learning to give a high level overview of common tools used by today’s data scientists.  No programming or ML experience required!</p>
            </div>
         </div>
     </div>
 </div>
 
-<div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
+<div class="card flip-container" id = "flip-toggle3">
     <div class="flipper">
         <div class="front">
             <div class="inner">
               <h4>Intro to Web VR</h4>
-                            <span><i class="fas fa-tag"></i> Javascript, VR/Games</span>
-                            <div class="img-title">
-                                <img src="../assets/joshshadik.jpeg">
-                                <span>
-                                    <p>Josh Shadik</p>
-                                    <p>Developer @ Verizon Labs</p>
-                                </span>
-                            </div>
+                <span><i class="fas fa-tag"></i> Javascript, VR/Games</span>
+                <div class="img-title">
+                    <img src="../assets/joshshadik.jpeg">
+                    <span>
+                        <p>Josh Shadik</p>
+                        <p>Developer @ Verizon Labs</p>
+                    </span>
+                </div>
+                <button class = "frontbtn" onclick="document.querySelector('#flip-toggle3').classList.toggle('hover');" class="sexyButton"><i class="fas fa-info-circle"></i></button>
         </div>
         </div>
         <div class="back">
             <div class="inner">
-           <p>Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. Wraith talk. Wraith talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Celebrate success right, the only way, apple.</p>
+                <button class="backbtn" onclick="document.querySelector('#flip-toggle3').classList.toggle('hover');" class="sexyButton"><i class="fas fa-undo-alt"></i></button>
+           <p>Create virtual reality experiences running in your web browser.</p>
            </div>
         </div>
     </div>
 </div>
 
 
-<div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
+<div class="card flip-container" id = "flip-toggle4">
     <div class="flipper">
         <div class="front">
             <div class="inner">
@@ -224,17 +237,19 @@
                                     <p>Bootcamp</p>
                                 </span>
                             </div>
+                            <button class = "frontbtn" onclick="document.querySelector('#flip-toggle4').classList.toggle('hover');" class="sexyButton"><i class="fas fa-info-circle"></i></button>
         </div>
         </div>
         <div class="back">
             <div class="inner">
-           <p>Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. Wraith talk. Wraith talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Celebrate success right, the only way, apple.</p>
+                <button class="backbtn" onclick="document.querySelector('#flip-toggle4').classList.toggle('hover');" class="sexyButton"><i class="fas fa-undo-alt"></i></button>
+           <p>Come build a browser-based version of the classic arcade game frogger with us in just 30 minutes! Then, you'll use those skills to replicate another arcade game of your choosing, or create a totally original arcade game of your own. </p>
            </div>
         </div>
     </div>
 </div>
                        
-<div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
+<div class="card flip-container" id = "flip-toggle5">
     <div class="flipper">
         <div class="front">
             <div class="inner">
@@ -247,40 +262,48 @@
                                     <p>Software Engineer @ Etsy</p>
                                 </span>
                             </div>
+                            <button class = "frontbtn" onclick="document.querySelector('#flip-toggle5').classList.toggle('hover');" class="sexyButton"><i class="fas fa-info-circle"></i></button>
         </div>
         </div>
         <div class="back">
             <div class="inner">
-           <p>Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. Wraith talk. Wraith talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Celebrate success right, the only way, apple.</p>
+                <button class="backbtn" onclick="document.querySelector('#flip-toggle5').classList.toggle('hover');" class="sexyButton"><i class="fas fa-undo-alt"></i></button>
+           <p>This talk is for developers who do not think open source is for them (it is), and organizers of open source projects who want to encourage and attract more talent.
+
+When I was a junior developer, open source never seemed quite “open” to me. Attempts to navigate interesting open source projects always ended in frustration as I sat alone at my computer, not knowing how to begin or who to contact.
+
+I am now a director of an organization that serves as a nexus point of open source projects for social good. As an organizer, I formalized the pain points and trust signals encountered in my personal journey with open source in an effort to remove blockers for hack night attendees. I will present some of those learnings in this talk to show that well-formed open source communities can, and should, be accessible to everyone.</p>
            </div>
         </div>
     </div>
 </div>
                              
-<div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
+<div class="card flip-container" id = "flip-toggle6">
     <div class="flipper">
         <div class="front">
             <div class="inner">
            <h4>Creative data visualizations with SVG and D3.js</h4>
-                            <span><i class="fas fa-tag"></i> Art, Javascript, Data</span>
-                            <div class="img-title">
-                                <img src="../assets/shirleywu.jpeg">
-                                <span>
-                                    <p>Shirley Wu</p>
-                                    <p>Data Visualization Freelancer</p>
-                                </span>
-                            </div>
+                <span><i class="fas fa-tag"></i> Art, Javascript, Data</span>
+                <div class="img-title">
+                    <img src="../assets/shirleywu.jpeg">
+                    <span>
+                        <p>Shirley Wu</p>
+                        <p>Data Visualization Freelancer</p>
+                    </span>
+                </div>
+                <button class = "frontbtn" onclick="document.querySelector('#flip-toggle6').classList.toggle('hover');" class="sexyButton"><i class="fas fa-info-circle"></i></button>
         </div>
         </div>
         <div class="back">
             <div class="inner">
-           <p>Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. Wraith talk. Wraith talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Celebrate success right, the only way, apple.</p>
+                <button class="backbtn" onclick="document.querySelector('#flip-toggle6').classList.toggle('hover');" class="sexyButton"><i class="fas fa-undo-alt"></i></button>
+           <p>In this workshop, we will cover the basics of SVG - especially SVG paths and the cubic bezier curve command - as well as an introduction to D3.js's selection, data-binding, and enter-update-exit patterns. The culmination of the workshop will be to create a set of flowers out of movie data, a simpler version of the film flowers <a href="http://sxywu.com/filmflowers/">here</a>.</p>
            </div>
         </div>
     </div>
 </div>
 
-<div class="card flip-container" ontouchstart="this.classList.toggle('hover');">
+<div class="card flip-container" id = "flip-toggle7">
     <div class="flipper">
         <div class="front">
             <div class="inner">
@@ -293,16 +316,42 @@
                                     <p>Software dev, Processing Foundation</p>
                                 </span>
                             </div>
+                            <button class = "frontbtn" onclick="document.querySelector('#flip-toggle7').classList.toggle('hover');" class="sexyButton"><i class="fas fa-info-circle"></i></button>
         </div>
         </div>
         <div class="back">
             <div class="inner">
-           <p>Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. To be successful you’ve got to work hard, to make history, simple, you’ve got to make it. Wraith talk. Wraith talk. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Celebrate success right, the only way, apple.</p>
+                <button class="backbtn" onclick="document.querySelector('#flip-toggle7').classList.toggle('hover');" class="sexyButton"><i class="fas fa-undo-alt"></i></button>
+           <p>Let's make a Twitter bot - In this workshop you will learn how to make Twitter bots for fun and art, not for fake news. We will learn the library <a href="http://tracery.io/">Tracery</a> to generate sentences and use the platform <a href="https://cheapbotsdonequick.com/">Cheap Bots Done Quick</a>to deploy our bots. </p>
            </div>
         </div>
     </div>
 </div>
 
+<div class="card flip-container" id = "flip-toggle8">
+    <div class="flipper">
+        <div class="front">
+            <div class="inner">
+                <h4>3 Steps to Becoming a Real-World Super Hero</h4>
+                            <span><i class="fas fa-tag"></i> Beginner, Bots, Art</span>
+            <div class="img-title">
+                                <img src="../assets/cassietarakajian.jpeg">
+                                <span>
+                                    <p>Matt Scott</p>
+                                    <p>Founder, 180º of Impact & Global Organizer, NASA's Space Apps Challenge</p>
+                                </span>
+                            </div>
+                             <button class = "frontbtn" onclick="document.querySelector('#flip-toggle8').classList.toggle('hover');" class="sexyButton"><i class="fas fa-info-circle"></i></button>
+        </div>
+        </div>
+        <div class="back">
+            <div class="inner">
+                <button class="backbtn" onclick="document.querySelector('#flip-toggle8').classList.toggle('hover');" class="sexyButton"><i class="fas fa-undo-alt"></i></button>
+           <p>Have you ever felt like you can't even? You're constantly surrounded by success stories of people bringing out-of-this-world ideas (startups, tech, communities, perspectives) to life. You want to bridge the gap between your desire to use your skills to change the world and actually making an impact; so, where should you get started? In this talk, Matt Scott, part of the Global Organizing Team for NASA's Space Apps Challenge and Founder of 180º of Impact, will share 3 steps to "hacking for change" and becoming a real-world super hero, collected from countless hours of recorded conversations with change makers worldwide.</p>
+           </div>
+        </div>
+    </div>
+</div>
                     </div>
                 </div>
             <div class = "imgbg">
