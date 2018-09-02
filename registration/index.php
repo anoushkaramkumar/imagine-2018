@@ -67,7 +67,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
                     'key' => $key);
 
                 if(send_email($info)) {
-                    $confirm_msg = "Thanks for signing up. Please check your email for confirmation!";
+                    $confirm_msg = "Thanks for signing up. Please check your email for confirmation (make sure to check spam as well)!";
                     $form_display = "form_hide";
                 } else{
                     $confirm_msg = "Could not send confirmation email.";

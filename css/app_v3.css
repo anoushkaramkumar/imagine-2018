@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:900|Muli:200,400,700");
+body {
+  margin: 0; }
+
+.container {
+  background: linear-gradient(#151642, #280837, #5A0701);
+  margin: 0;
+  padding: 0 30px;
+  min-height: 100vh; }
+  @media (max-width: 500px) {
+    .container {
+      padding: 5%; } }
+  .container a, .container .form .save {
+    font-family: "Lato";
+    cursor: pointer;
+    color: #151642;
+    background-color: #e0e0e0b5;
+    font-weight: 900;
+    font-size: 1.2em;
+    padding: 9px 40px;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    margin: 20px 10px 20px 0;
+    border-bottom: none;
+    -webkit-appearance: none; }
+    .container a:hover, .container .form .save:hover {
+      background: #DDD !important; }
+  .container .top {
+    padding: 30px 0;
+    color: white;
+    font-family: "Lato", sans-serif;
+    text-align: center; }
+    .container .top .pagetitle {
+      font-size: 4em;
+      margin: 0; }
+      @media (max-width: 520px) {
+        .container .top .pagetitle {
+          font-size: 3.1em; } }
+      .container .top .pagetitle.a {
+        display: none; }
+    .container .top h2 {
+      display: inline;
+      padding-right: 10px;
+      position: relative;
+      bottom: 7px;
+      font-size: 2.3em; }
+    .container .top img {
+      width: 42px;
+      display: inline; }
+  .container .ldBar.label-center > .ldBar-label {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2em;
+    text-shadow: none; }
+  .container .progress {
+    display: block;
+    float: left;
+    width: 25%; }
+    @media (max-width: 870px) {
+      .container .progress {
+        float: none;
+        width: 100%; }
+        .container .progress svg, .container .progress p {
+          display: none; } }
+    .container .progress .inner {
+      width: 130px;
+      margin-left: 40px; }
+      @media (max-width: 870px) {
+        .container .progress .inner {
+          width: 100%;
+          margin: 0;
+          text-align: center; } }
+    .container .progress text {
+      fill: white;
+      font-family: "Lato";
+      font-size: 2.3em; }
+    .container .progress a {
+      cursor: pointer;
+      color: #151642;
+      background-color: #e0e0e0b5;
+      font-weight: 900;
+      padding: 7px;
+      border: none;
+      text-decoration: none;
+      font-size: 1.1em;
+      font-family: "Lato";
+      display: block;
+      margin: 10px 0;
+      width: 106px;
+      outline: none; }
+      .container .progress a:hover {
+        background: #DDD !important; }
+      @media (max-width: 870px) {
+        .container .progress a {
+          display: inline-block;
+          width: 70%;
+          padding: 10px 20px;
+          font-size: 1.2em;
+          margin: 10px;
+          -webkit-appearance: none;
+          border-radius: 0; } }
+    .container .progress .progress__meter, .container .progress .progress__value1, .container .progress .progress__value2 {
+      fill: none; }
+    .container .progress .progress__meter {
+      stroke: transparent; }
+    .container .progress .progress__value1, .container .progress .progress__value2 {
+      stroke: #ffffff; }
+    .container .progress p {
+      color: white;
+      font-family: "Muli", sans-serif;
+      text-align: center;
+      font-size: 1.2em;
+      margin-bottom: 2em; }
+  .container form {
+    display: block;
+    float: left;
+    width: 75%; }
+    @media (max-width: 870px) {
+      .container form {
+        float: none;
+        width: 100%; } }
+    .container form textarea {
+      resize: none;
+      outline: none;
+      background: none;
+      border: 1px solid white;
+      width: 55%;
+      height: 160px;
+      color: white;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      font-family: "Muli", sans-serif;
+      font-size: 0.9em; }
+      @media (max-width: 870px) {
+        .container form textarea {
+          width: 97%; } }
+    .container form label {
+      font-family: "Lato", sans-serif;
+      color: white;
+      font-size: 1.2em; }
+    .container form input {
+      margin: 8px 5px 20px 0;
+      background: none;
+      border: none;
+      border-bottom: 2px solid white;
+      color: #ffffffde;
+      font-size: 1.1em;
+      outline: none;
+      font-family: "Muli", sans-serif;
+      width: 300px;
+      border-radius: 0; }
+    .container form input[type=radio] {
+      display: none; }
+    .container form .radio-list1, .container form .radio-list2 {
+      list-style-type: none;
+      margin: 15px 0 20px 0;
+      padding: 0; }
+      .container form .radio-list1 li, .container form .radio-list2 li {
+        float: left;
+        margin: 0 5px 0 0; }
+      .container form .radio-list1 label, .container form .radio-list2 label {
+        padding: 5px;
+        cursor: pointer;
+        -webkit-appearance: listitem;
+        -moz-appearance: listitem;
+        -o-appearance: listitem;
+        -ms-appearance: listitem;
+        appearance: listitem;
+        color: #151642;
+        background-color: #e0e0e0b5;
+        font-weight: 900;
+        padding: 7px; }
+        .container form .radio-list1 label:hover, .container form .radio-list2 label:hover {
+          background: #DDD !important; }
+        .container form .radio-list1 label.checked, .container form .radio-list2 label.checked {
+          background-color: #e0e0e0; }
+
+/*# sourceMappingURL=app_v2.css.map */

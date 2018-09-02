@@ -1,10 +1,10 @@
 <?php 
+  include("../db.php");
+
   session_start(); 
   
   if (isset($_POST['Submit'])) {
-    $logins = array(
-      'board' => 'logmeinplease123'
-    );
+    
     $Username = isset($_POST['Username']) ? $_POST['Username'] : '';
     $Password = isset($_POST['Password']) ? $_POST['Password'] : '';
     if (isset($logins[$Username]) && $logins[$Username] == $Password) {

@@ -75,4 +75,43 @@ $(".owl-carousel").owlCarousel({
     }
 });
 
-// document.querySelector("#myCard").classList.toggle("flip")
+
+$( ".frontbtn.1, .backbtn.1" ).click(function() {
+  $(".flip-container#flip-toggle1").toggleClass('hover');
+  $(".flip-container#flip-toggle1 .front, .flip-container#flip-toggle1 .back").fadeToggle("fast");
+});
+
+$( ".frontbtn.2, .backbtn.2" ).click(function() {
+  $(".flip-container#flip-toggle2").toggleClass('hover');
+  $(".flip-container#flip-toggle2 .front, .flip-container#flip-toggle2 .back").fadeToggle("fast");
+});
+
+$( ".frontbtn.3, .backbtn.3" ).click(function() {
+  $(".flip-container#flip-toggle3").toggleClass('hover');
+  $(".flip-container#flip-toggle3 .front, .flip-container#flip-toggle3 .back").fadeToggle("fast");
+});
+
+$( ".frontbtn.4, .backbtn.4" ).click(function() {
+  $(".flip-container#flip-toggle4").toggleClass('hover');
+  $(".flip-container#flip-toggle4 .front, .flip-container#flip-toggle4 .back").fadeToggle("fast");
+});
+
+$( ".frontbtn.5, .backbtn.5" ).click(function() {
+  $(".flip-container#flip-toggle5").toggleClass('hover');
+  $(".flip-container#flip-toggle5 .front, .flip-container#flip-toggle5 .back").fadeToggle("fast");
+});
+
+$( ".frontbtn.6, .backbtn.6" ).click(function() {
+  $(".flip-container#flip-toggle6").toggleClass('hover');
+  $(".flip-container#flip-toggle6 .front, .flip-container#flip-toggle6 .back").fadeToggle("fast");
+});
+
+$( ".frontbtn.7, .backbtn.7" ).click(function() {
+  $(".flip-container#flip-toggle7").toggleClass('hover');
+  $(".flip-container#flip-toggle7 .front, .flip-container#flip-toggle7 .back").fadeToggle("fast");
+});
+
+$( ".frontbtn.8, .backbtn.8" ).click(function() {
+  $(".flip-container#flip-toggle8").toggleClass('hover');
+  $(".flip-container#flip-toggle8 .front, .flip-container#flip-toggle8 .back").fadeToggle("fast");
+});

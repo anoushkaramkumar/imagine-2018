@@ -1052,65 +1052,9 @@ div#particles-js {
 
 .workshops {
     font-family: Lato, sans-serif;
-    /*background-color: #45477D;*/
     padding: 50px 20px 10px;
     text-align: center;
 
-    .tag {
-       /* align-items: center;
-        
-        border-radius: 4px;
-        color: white;
-        display: inline-flex;
-        font-size: .75rem;
-        height: 2em;
-        justify-content: center;
-        line-height: 1.5;
-        padding-left: .75em;
-        padding-right: .75em;
-        white-space: nowrap;
-        margin: .1em;*/
-/*
-        &.green {
-            background-color: #00d1b2;
-        }
-        &.blue {
-            background-color: #1c82f0;
-        }
-        &.cloud {
-            background-color: #c1d4ee;
-        }
-        &.mustard {
-            background-color: #ffbf00;
-        }
-        &.pinkish {
-            background-color: #ff3860;
-        }
-        &.orange {
-            background-color: #FFA500;
-        }
-        &.other-red {
-            background-color: #ff3030;
-        }
-        &.blush {
-            background-color: #D6EDFF;
-        }
-        &.yellow {
-            background-color: #F0F465;
-        }
-        &.sea {
-            background-color: #50C9CE;
-        }
-        &.pink {
-            background-color: #ffacbb;
-        }
-        &.purple {
-            background-color: #8884FF;
-        }
-        &.fire {
-            background-color: #E94F37;
-        }*/
-    }
     h3 {
         font-size: 2em;
         color: white;
@@ -1124,152 +1068,76 @@ div#particles-js {
         margin: 0 30px;
     }
 
-.flip-container.hover .flipper, .flip-container.flip .flipper {
-    transform: rotateY(180deg);
-}
-
-.flip-container {
-    perspective: 0;
-    color: black;
-
-    .frontbtn {
-        border: none;
-        font-size: 18px;
-        background: none;
-        text-align: right;
-        cursor: pointer;
-        padding-left: 0;
-        position: absolute;
-        bottom: 10px;
-        left: 20px;
-    }
-
-    .backbtn {
-        background: none;
-        border: none;
-        font-size: 25px;
-        margin: 0 auto;
-        display: block;
-        cursor: pointer;
-    }
-}
-    /* flip the pane when hovered */
-    /*&.hover .flipper, &.flip .flipper {
+    .flip-container.hover .flipper, .flip-container.flip .flipper {
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
-    }*/
-
-.flip-container, .front, .back {
-   /* width: 320px;*/
-    height: 245px;
-}
-
-/* flip speed goes here */
-.flipper {
-    transition: 0.6s;
-    transform-style: preserve-3d;
-     padding: 20px;
-    position: relative;
-}
-
-.back p {
-    height: 150px;
-    overflow-y: scroll;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-    backface-visibility: hidden;
-    border-radius: 15px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: white;
-    border-radius: 15px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-bottom: 20px;
-    text-align: left;
-
-    .inner {
-        padding: 20px;
-
-
     }
-    h4 {
-                font-size: 1.25em;
-                margin: 0 0 .5em;
-            }
-    .img-title {
-            position: relative;
-            vertical-align: middle;
+
+    .flip-container {
+        perspective: 10000px;
+        color: black;
+
+        .frontbtn {
+            border: none;
+            font-size: 18px;
+            background: none;
+            text-align: right;
+            cursor: pointer;
+            padding-left: 0;
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+        }
+
+        .backbtn {
+            background: none;
+            border: none;
+            font-size: 25px;
+            margin: 0 auto;
             display: block;
-            width: 100%;
-
-
-
-            img {
-                width: 28%;
-                border-radius: 100%;
-                margin-top: 1em;
-                vertical-align: middle;
-                border: 1px solid gray;
-            }
-
-            span {
-                float: right;
-                width: 65%;
-                vertical-align: middle;
-                margin: 0;
-                position: absolute;
-                top: 50%;
-                left: 65%;
-                transform: translate(-50%, -50%);
-
-                p {
-                    margin: 0;
-
-                    &:nth-child(1) {
-                        font-weight: bold;
-                    }
-                }
-            }
+            cursor: pointer;
         }
-        .desc {
-            margin-top: 1em;
-        }
-}
+    }
 
-/* front pane, placed above back */
-.front {
-    z-index: 2;
-    /* for firefox 31 */
-    transform: rotateY(0deg);
+    .flip-container, .front, .back {
+        height: 245px;
+    }
 
-}
+    .flipper {
+        transition: 0.6s;
+        transform-style: preserve-3d;
+        padding: 20px;
+        position: relative;
+    }
 
-/* back, initially hidden pane */
-.back {
-    transform: rotateY(180deg);
-    overflow-y:scroll;
+    .back p {
+        height: 150px;
+        overflow-y: scroll;
+    }
 
-}
-
-    /*.card {
+    .front, .back {
+        backface-visibility: hidden;
+        border-radius: 15px;
+        position: absolute;
+        top: 0;
+        left: 0;
         background-color: white;
         border-radius: 15px;
-        padding: 20px;
         display: inline-block;
-        height: 175px;
         vertical-align: middle;
         margin-bottom: 20px;
         text-align: left;
-        color: black;
 
+        .inner {
+            padding: 20px;
+        }
         h4 {
             font-size: 1.25em;
             margin: 0 0 .5em;
         }
-        
+
         .img-title {
             position: relative;
             vertical-align: middle;
@@ -1303,9 +1171,25 @@ div#particles-js {
                 }
             }
         }
-
         .desc {
             margin-top: 1em;
         }
-    }*/
+    }
+
+    .front {
+        z-index: 2;
+        -ms-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+
+    }
+
+    .back {
+        display: none;
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
 }

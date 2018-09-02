@@ -15,8 +15,8 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/ogv1wzn.css">
     <link rel="stylesheet" type="text/css" href="../loading-bar.css"/>
-    <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v4.css">
-    <link type="text/css" href="../css/app.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v5.css">
+    <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/app_v3.css" rel="stylesheet" />
 </head>
 
 <body class="page-section" >
@@ -51,7 +51,7 @@
 	    	<h2>IMAGINE 2018</h2><img src = "../assets/planet1.png">
 	    </div>
 
-	    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+	    
 	    <div class = "progress">
 	    	<div class="inner">
 		    	<svg class="progress__cir" width="120" height="120" viewBox="0 0 120 120">
@@ -75,10 +75,9 @@
 	    </div>
 	    
 
-
-	    <div class = "form">
-		    
-			    <div class = "general-info">
+	    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+	    	<div class = "form">
+		    	<div class="general-info">
 			    	<br><label>Age *</label><br>
 			    	<input class="req <?php echo (strlen($age) > 0)?'counted':'' ?>" type="text" name="age" value = "<?php echo $age;?>">
 			    	
@@ -138,10 +137,9 @@
 
 			    	<br><label>Parent/Guardian Email *</label><br>
 			    	<input class="req <?php echo (strlen($parent_email) > 0)?'counted':'' ?>" type="email" name="parent_email" value = "<?php echo $parent_email;?>">
-			   	 <br><a class = "gi2a">Step 2: Application</a><input class="save" type="submit" name = "submit" value="Save">
 			    </div>
 
-			    <div class = "application">
+			    <div class="application">
 			    	<br><label>Are you a beginner in computer science? If not, tell us about some of the stuff you’ve done.</label><br>
 			    	<textarea class="req <?php echo (strlen($ques1) > 0)?'counted':'' ?>" name="ques1"><?php echo $ques1;?></textarea>
 
@@ -153,14 +151,16 @@
 
 			    	<br><label>Have you been to hackathons/technology events in the past? If so, which ones?</label><br>
 			    	<textarea class="req <?php echo (strlen($ques4) > 0)?'counted':'' ?>" name="ques4"><?php echo $ques4;?></textarea>
-			    	<br><a class = "a2gi">Step 1: General Info</a><input class="save" type="submit" name = "submit" value="Save">
-
 			    </div>
+		    	
+		    	<input class="save" type="submit" name = "submit" value="Save">
+		    </div>
 			    
 			</form>
+			<div style="clear: both;"></div>
 		</div>
 
-		<div style="clear: both;"></div>
+		
     </div>
     
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -169,26 +169,51 @@
 		var RADIUS = 54;
 		var CIRCUMFERENCE = 2  * Math.PI  * RADIUS;
 
-		var dashoffset = 0;
+		var dashoffset1 = 0;
+		var dashoffset2 = 0;
 
-		function progress(value, num) {
+		function progress1(value) {
 			var progress = value / 100;
-			var i = dashoffset;
-			dashoffset = CIRCUMFERENCE  * (progress);
+			var i = dashoffset1;
+			dashoffset1 = CIRCUMFERENCE  * (progress);
 
-			myLoop(i, dashoffset, num);
+			myLoop1(i, dashoffset1);
 
-		   	progressValue = document.querySelector('.progress__value' + num);
+		   	progressValue = document.querySelector('.progress__value1');
 			progressValue.style.strokeDasharray = CIRCUMFERENCE;
 		}
 
-		function myLoop (i, dashoffset, num) {           
+		function myLoop1(i, dashoffset1) {           
+
 		   setTimeout(function () {   
-		   	  progressValue = document.querySelector('.progress__value' + num);
+		   	  progressValue = document.querySelector('.progress__value1');
 		      progressValue.style.strokeDashoffset = CIRCUMFERENCE - i;
 		      i++;
-		      if (i <= dashoffset) {
-		         myLoop(i, dashoffset, num);
+		      if (i <= dashoffset1) {
+		         myLoop1(i, dashoffset1);
+		      } 
+		   }, 7)
+		}
+
+		function progress2(value) {
+			var progress = value / 100;
+			var i = dashoffset2;
+			dashoffset2 = CIRCUMFERENCE  * (progress);
+
+			myLoop2(i, dashoffset2);
+
+		   	progressValue = document.querySelector('.progress__value2');
+			progressValue.style.strokeDasharray = CIRCUMFERENCE;
+		}
+
+		function myLoop2(i, dashoffset2) {           
+
+		   setTimeout(function () {   
+		   	  progressValue = document.querySelector('.progress__value2');
+		      progressValue.style.strokeDashoffset = CIRCUMFERENCE - i;
+		      i++;
+		      if (i <= dashoffset2) {
+		         myLoop2(i, dashoffset2);
 		      } 
 		   }, 7)
 		}
@@ -196,8 +221,9 @@
 		var percent1 = <?php echo $percent1; ?>;
 		var percent2 = <?php echo $percent2; ?>;
 
-		progress(percent2, 2);
-		progress(percent1, 1);
+		progress2(percent2);
+		progress1(percent1);
+		progress2(percent2);
 
 		$('.radio-list1 :radio').on('change', function () {
 			$(".radio-list1 label").removeClass("checked");
@@ -207,20 +233,6 @@
 		$('.radio-list2 :radio').on('change', function () {
 			$(".radio-list2 label").removeClass("checked");
 		    $(this).parent().addClass("checked");
-		});
-
-		$( ".gi2a" ).click(function() {
-			$(".pagetitle.a").show();
-			$(".application").show();
-			$(".pagetitle.gi").hide();
-			$(".general-info").hide();
-		});
-
-		$( ".a2gi" ).click(function() {
-			$(".pagetitle.a").hide();
-			$(".application").hide();
-			$(".pagetitle.gi").show();
-			$(".general-info").show();
 		});
 
 		$( ".general-info .req" ).change(function() { 
@@ -250,7 +262,6 @@
 		$( ".application .req" ).change(function() { 
 			var value = $(this).val();
 			if (value.length > 0 && !$(this).hasClass("counted")) {
-				console.log("nuni");
 				percent2 += 25;
 				progress(percent2, 2);
 				$(this).addClass("counted");
