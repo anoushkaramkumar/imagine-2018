@@ -404,7 +404,7 @@
                 <a href="https://github.com/" target="_blank"><img class="github" src="https://s3.amazonaws.com/imagine-2018/assets/github.png"></a> <a href="https://www.google.com/" target="_blank"><img class="google" src="https://s3.amazonaws.com/imagine-2018/assets/google.png"></a>
             </div>
             <div class="row">
-                <a href="https://quizlet.com/" target="_blank"><img class="quizlet" src="https://s3.amazonaws.com/imagine-2018/assets/quizlet.png"></a> <a href="https://giphy.com/" target="_blank"><img class="giphy" src="https://s3.amazonaws.com/imagine-2018/assets/giphy.png"></a> <a href="https://www.twilio.com/" target="_blank"><img class="twilio" src="https://s3.amazonaws.com/imagine-2018/assets/twilio.png"></a>
+                <a href="https://www.bloomberg.com/" target="_blank"><img class="bloomberg quizlet" src="https://misk.org.sa/fellowship/wp-content/uploads/sites/7/2018/05/Bloomberg-logo-w.png"></a> <a href="https://giphy.com/" target="_blank"><img class="giphy" src="https://s3.amazonaws.com/imagine-2018/assets/giphy.png"></a> <a href="https://www.twilio.com/" target="_blank"><img class="twilio" src="https://s3.amazonaws.com/imagine-2018/assets/twilio.png"></a>
             </div>
             <div class="row">
                 <a href="https://technosoftacademy.io/" target="_blank"><img class="technosoft" src="assets/technosoft.png"></a> <a href="https://www.janestreet.com/" target="_blank"><img class="janestreet" src="https://s3.amazonaws.com/imagine-2018/assets/janestreet.png"></a>
