@@ -23,7 +23,7 @@
                 <li><a href="/#about"><span>About</span></a></li>
                 <li><a href="/#event-info"><span>Event info</span></a></li>
                 <li><a href="/#schedule"><span>Schedule</span></a></li>
-                <li><a href="/#workshops"><span>Workshops</span></a></li>
+                <li><a href="/workshops"><span>Workshops</span></a></li>
                 <li><a href="/#speakers"><span>Speakers</span></a></li>
                 <li><a href="/#faq"><span>FAQs</span></a></li>
                 <li><a href="/#sponsors"><span>Sponsors</span></a></li>

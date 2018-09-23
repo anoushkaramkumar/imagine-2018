@@ -4,69 +4,109 @@ body {
 }
 
 .schedule {
-	background-color: #8889B9;
+    background-color: #45477D;
     color: white;
-    padding: 90px;
+    padding: 90px 0;
+
+    @media (max-width: 950px) {
+        padding-bottom: 0;
+    }
 
     h3 {
-	    text-align: center;
-	    font-size: 2em;
-	    margin-top: 0;
-	}
+        text-align: center;
+        font-size: 2em;
+        margin-top: 0;
+    }
 
-	.blocks {
-		width: fit-content;
-	    margin: auto;
+    .blocks {
+        width: fit-content;
+        margin: auto;
 
-		h4 {
-		    margin: 0;
-		    font-size: 1.5em;
-		}
+        h4 {
+            margin: 0;
+            font-size: 1.5em;
+        }
 
-		h5 {
-		    margin: 0 0 1em;
-		    font-size: 1.5em;
-		}
+        h5 {
+            margin: 0 0 1em;
+            font-size: 1.5em;
+        }
 
-		.b.left {
-		    float: left;
-		    width: fit-content;
-		    margin-right: 5em;
-		}
+        @media (max-width: 450px) {
+            h4, h5 {
+                text-align: center;
+            }
+        }
 
-		.b.right {
-		    float: left;
-		    width: fit-content;
-		}
+        .b.left {
+            float: left;
+            width: fit-content;
+            margin-right: 5em;
+        }
 
-		.times {
-			span {
-			    display: block;
-			    line-height: 1.4;
-			}
+        .b.right {
+            float: left;
+            width: fit-content;
+        }
 
-			b {
-			    width: 100px;
-			    display: inline-block;
-			    text-align: right;
-			    padding-right: 10px;
-			}
-		}
-	} 
+        @media (max-width: 950px) {
+            .b.left, .b.right {
+                float: none;
+			    margin: 0 auto;
+			    width: 100%;
+			    padding-bottom: 3em;
+            }
+        }
+
+        @media (max-width: 450px) {
+            .b.left, .b.right {
+                width: 90%;
+            }
+        }
+
+        .times {
+            span {
+                display: block;
+                line-height: 1.4;
+            }
+
+            b {
+                width: 100px;
+                display: inline-block;
+                text-align: right;
+                padding-right: 10px;
+
+                @media (max-width: 950px) {
+                    width: auto;
+                    text-align: left;
+                }
+            }
+        }
+    } 
 }
 
 .workshops {
-    background-color: #45477D;
+    background-color: #8889B9;
     padding: 50px 20px;
     text-align: center;
 
     h3 {
-        text-align: left;
+        text-align: center;
 	    font-size: 2em;
 	    color: white;
 		margin-top: 0;
 	    padding-left: 15px;
 	}
+
+    h4.day {
+        color: white;
+        font-size: 1.5em;
+    }
+
+    h5 {
+        color: white;
+        font-size: 1.4em;
+    }
 
 	.card {
         width: 250px;
@@ -74,11 +114,23 @@ body {
 	    border-radius: 15px;
 	    padding: 20px;
 	    display: inline-block;
-	    height: 330px;
+        height: 300px;
 	    vertical-align: middle;
 	    margin-right: 10px;
 	    margin-bottom: 20px;
 	    text-align: left;
+
+        &.activity {
+            height: 60px;
+        }
+
+	   	span {
+		    display: block;
+
+            &:nth-child(4) {
+                margin-bottom: 20px;
+            }
+		}
 
 	    h4 {
 		    font-size: 1.25em;

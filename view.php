@@ -35,7 +35,7 @@
                 <li><a href="#about"><span>About</span></a></li>
                 <li><a href="#event-info"><span>Event info</span></a></li>
                 <li><a href="#speakers"><span>Speakers</span></a></li>
-                <li><a href="#workshops"><span>Workshops</span></a></li>
+                <li><a href="/workshops"><span>Workshops</span></a></li>
                 <li><a href="#schedule"><span>Schedule</span></a></li>
                 <li><a href="#faq"><span>FAQs</span></a></li>
                 <li><a href="#sponsors"><span>Sponsors</span></a></li>
@@ -128,18 +128,13 @@
                         <p><b>Michael Geraghty</b></p>
                         <p>Chief Information Security Officer, State of New Jersey</p>
                     </div>
-                    <div class="speaker e">
-                        <img src="assets/michalborkowski.jpg">
-                        <p><b>Michał Borkowski</b></p>
-                        <p>CEO, Brainly</p>
-                    </div>
                 </div>
             </div>
             
 
 <div class="workshops" id="workshops">
     <h3>FEATURED WORKSHOPS</h3>
-    <p style="margin: -10px 0 30px; font-size: 1.2em;"><em>(+ more to come!)</em></p>
+    <p style="margin: -10px 0 30px; font-size: 1.2em;"><em>See all <a style="color:white;" href = "/workshops">here!</a></em></p>
     <div class="owl-carousel">
         <div class="card">
             <div class="flip-container" id="flip-toggle1">
@@ -346,7 +341,7 @@
                                 <span><b>9AM</b>  Opening Keynote: Anthony Johnson</span>
                                 <span><b>10AM - 4PM</b>  Workshops/Talks/Activities</span>
                                 <span><b>12PM - 2PM</b>  Lunch (Staggered)</span>
-                                <span><b>4PM - 5PM</b>  Closing Ceremony, Keynote: Michał Borkowski</span>
+                                <span><b>4PM - 5PM</b>  Closing Ceremony</span>
                             </div>
                         </div>
                         <div class="clear" style="clear: both;"></div>

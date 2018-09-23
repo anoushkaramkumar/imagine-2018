@@ -64,29 +64,20 @@ body {
     color: white;
     margin-top: 0;
     padding-left: 15px; }
-  .workshops h4.day {
-    color: white;
-    font-size: 1.5em; }
-  .workshops h5 {
-    color: white;
-    font-size: 1.4em; }
   .workshops .card {
     width: 250px;
     background-color: white;
     border-radius: 15px;
     padding: 20px;
     display: inline-block;
-    height: 300px;
+    height: 280px;
     vertical-align: middle;
     margin-right: 10px;
     margin-bottom: 20px;
     text-align: left; }
-    .workshops .card.activity {
-      height: 60px; }
     .workshops .card span {
+      margin-bottom: 10px;
       display: block; }
-      .workshops .card span:nth-child(4) {
-        margin-bottom: 20px; }
     .workshops .card h4 {
       font-size: 1.25em;
       margin: 0 0 .5em; }
@@ -116,4 +107,4 @@ body {
     .workshops .card .desc {
       margin-top: 1em; }
 
-/*# sourceMappingURL=workshops.css.map */
+/*# sourceMappingURL=workshops_v2.css.map */
