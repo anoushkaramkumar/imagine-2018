@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="https://s3.amazonaws.com/imagine-2018/assets/favicon.ico">
+    <link rel="icon" type="image/png" href="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966069/imagine/favicon_glhvjd.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sign Up</title>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v5.css">
-    <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/account_v3.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/nav_v5.css">
+    <link type="text/css" href="../css/account_v3.css" rel="stylesheet" />
 </head>
 <body>
     <header>

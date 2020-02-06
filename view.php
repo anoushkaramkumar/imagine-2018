@@ -4,11 +4,11 @@
 <head>
     <meta property="og:url" content="https://imagine.hackbca.com" />
     <meta property="og:title" content="Imagine 2018" />
-    <meta property="og:image" content="https://imagine.hackbca.com/assets/banner.jpg" />
+    <meta property="og:image" content="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966070/imagine/banner_b4lxld.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Imagine 2018</title>
-    <link rel="icon" type="image/png" href="assets/favicon.ico">
+    <link rel="icon" type="image/png" href="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966069/imagine/favicon_glhvjd.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -25,9 +25,7 @@
 <body class="page-section" id="home">
     <header>
         <nav class="cd-stretchy-nav">
-            <a class="cd-nav-trigger" href="#0">
-                Menu
-                <span aria-hidden="true"></span>
+            <a class="cd-nav-trigger" href="#0">Menu<span aria-hidden="true"></span>
             </a>
 
             <ul>
@@ -75,12 +73,12 @@
             <div class = "whatis page-section" id="about">
                 <h3 class = "animated fadeIn">WHAT IS IMAGINE?</h3>
                 <p class = "animated fadeIn "><b>Imagine 2018: a hackBCA Event</b> is a two-day computer science conference hosted at Bergen County Academies. We’re open to all high school and undergraduate students interested in taking a wide variety of computer science related workshops taught by industry veterans and attending keynotes from influential technologists. Prior programming experience is not required; we’re here for anyone who wants to learn, meet new people, and create something awesome!</p>
-                <a class = "torchicon1 animated fadeIn" target = "_blank" href = "history"><img src = "assets/TorchWhite.png">View our history.</a>
+                <a class = "torchicon1 animated fadeIn" target = "_blank" href = "history"><img src = "https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966073/imagine/TorchWhite_tclwfz.svg">View our history.</a>
             </div>
         </div>
-        <img class = "waves" src = "assets/Waves1.png" data-aos="fade-up" data-aos-duration="500" data-aos-delay = "100">
-        <img class = "waves" src = "assets/Waves2.png" data-aos="fade-up" data-aos-duration="500"">
-        <img class = "waves" src = "assets/Waves3.png" style="z-index: 9; position: relative;">
+        <img class = "waves" src = "https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966073/imagine/Waves1_o0cbef.png" data-aos="fade-up" data-aos-duration="500" data-aos-delay = "100">
+        <img class = "waves" src = "https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966073/imagine/Waves2_elh7or.png" data-aos="fade-up" data-aos-duration="500">
+        <img class = "waves" src = "https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966073/imagine/Waves3_nddyol.png" style="z-index: 9; position: relative;">
         <div class = "whereandwhen page-section" id="event-info">
             <div class = "blocks">
                 <div class = "block planetbg">
@@ -100,9 +98,9 @@
                 </div>
             </div>
         </div>
-        <img style = "z-index: 9; margin-top: -6vw;" class = "wavesi" src = "assets/Waves3i.png"> 
-        <img style = "z-index: 8;" class = "wavesi" src = "assets/Waves2i.png" data-aos-offset = "-50" data-aos="fade-down" data-aos-duration="400">
-        <img class = "wavesi" src = "assets/Waves1i.png" data-aos="fade-down" data-aos-duration="400" data-aos-offset = "-30" data-aos-delay = "100">
+        <img style = "z-index: 9; margin-top: -6vw;" class = "wavesi" src = "https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966073/imagine/Waves3i_yzmznu.png"> 
+        <img style = "z-index: 8;" class = "wavesi" src = "https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966073/imagine/Waves2i_owzi37.png" data-aos-offset = "-50" data-aos="fade-down" data-aos-duration="400">
+        <img class = "wavesi" src = "https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966073/imagine/Waves1i_u73hfj.png" data-aos="fade-down" data-aos-duration="400" data-aos-offset = "-30" data-aos-delay = "100">
         
 
         
@@ -114,17 +112,17 @@
                 <h3 class="animated fadeIn">KEYNOTE SPEAKERS</h3>
                 <div class="sbubbles">
                     <div class="speaker o">
-                        <img src="assets/horowitz.jpg">
+                        <img src="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966071/imagine/horowitz_pubjda.png">
                         <p><b>Eliot Horowitz</b></p>
                         <p>Co-Founder &amp; CTO, MongoDB</p>
                     </div>
                     <div class="speaker e">
-                        <img src="assets/anthonyjohnson.jpg">
+                        <img src="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966069/imagine/anthonyjohnson_nxy9aj.jpg">
                         <p><b>Anthony Johnson</b></p>
                         <p>CTO, GIPHY</p>
                     </div>
                     <div class="speaker o">
-                        <img src="assets/geraghty.jpg">
+                        <img src="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966070/imagine/geraghty_dzws3r.jpg">
                         <p><b>Michael Geraghty</b></p>
                         <p>Chief Information Security Officer, State of New Jersey</p>
                     </div>
@@ -347,7 +345,7 @@
                         <div class="clear" style="clear: both;"></div>
                     </div>
                 </div>
-    <img class="cometbg" src="assets/cometsbg_new.png">
+    <img class="cometbg" src="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966069/imagine/cometsbg.png">
     
     <div class="faq page-section" id="faq">
         <h3 class="animated fadeIn">FAQ</h3>
@@ -401,16 +399,16 @@
         <h3 class="animated fadeIn">SPONSORS</h3>
         <div class="logos">
             <div class="row">
-                <a href="https://github.com/" target="_blank"><img class="github" src="assets/github.png"></a> <a href="https://www.google.com/" target="_blank"><img class="google" src="assets/google.png"></a>
+                <a href="https://github.com/" target="_blank"><img class="github" src="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966070/imagine/github_x1adgs.png"></a> <a href="https://www.google.com/" target="_blank"><img class="google" src="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966070/imagine/google_drnhix.png"></a>
             </div>
             <div class="row">
-                <a href="https://quizlet.com/" target="_blank"><img class="quizlet" src="assets/quizlet.png"></a> <a href="https://giphy.com/" target="_blank"><img class="giphy" src="assets/giphy.png"></a> <a href="https://www.twilio.com/" target="_blank"><img class="twilio" src="assets/twilio.png"></a>
+                <a href="https://www.bloomberg.com/" target="_blank"><img class="bloomberg quizlet" src="https://misk.org.sa/fellowship/wp-content/uploads/sites/7/2018/05/Bloomberg-logo-w.png"></a> <a href="https://giphy.com/" target="_blank"><img class="giphy" src="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966069/imagine/giphy_hadxuu.png"></a> <a href="https://www.twilio.com/" target="_blank"><img class="twilio" src="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966073/imagine/twilio_l3dcvv.png"></a>
             </div>
             <div class="row">
-                <a href="https://technosoftacademy.io/" target="_blank"><img class="technosoft" src="assets/technosoft.png"></a> <a href="https://www.janestreet.com/" target="_blank"><img class="janestreet" src="assets/janestreet.png"></a>
+                <a href="https://technosoftacademy.io/" target="_blank"><img class="technosoft" src="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966072/imagine/technosoft_ds0hpz.png"></a> <a href="https://www.janestreet.com/" target="_blank"><img class="janestreet" src="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966071/imagine/janestreet_d71npk.png"></a>
             </div>
             <div class="row">
-                <a href="https://www.upperlinecode.com/" target="_blank"><img class="upperline" src="assets/upperline.png"></a> <a href="https://www.jetbrains.com/" target="_blank"><img class="jetbrains" src="assets/jetbrains.png"></a>
+                <a href="https://www.upperlinecode.com/" target="_blank"><img class="upperline" src="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966073/imagine/upperline_rucabh.png"></a> <a href="https://www.jetbrains.com/" target="_blank"><img class="jetbrains" src="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966071/imagine/jetbrains_ewf8if.png"></a>
             </div>
         </div>
     </div>
@@ -419,7 +417,7 @@
             <a href="https://www.facebook.com/hackbca" target="_blank"><i class="fab fa-facebook-square"></i></a> <a href="https://twitter.com/hackBCA" target="_blank"><i class="fab fa-twitter"></i></a> <a href="https://www.instagram.com/hackbca/" target="_blank"><i class="fab fa-instagram"></i></a> <a href="https://www.snapchat.com/add/hackbca/" target="_blank"><i class="fab fa-snapchat-ghost" style="padding: 0;"></i></a><br>
         </div>
         <div class="imgend">
-            <img src="assets/planet1.png">
+            <img src="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966071/imagine/planet1_kpev7t.png">
             <h3>IMAGINE 2018</h3><br>
             <a href="/code-of-conduct">Our Code of Conduct</a>
         </div>

@@ -1,4 +1,6 @@
-<?php 
+<?php
+
+include("./view.php");
 require_once '../db.php';
 
 
@@ -12,6 +14,6 @@ while($row = $workshops->fetch_assoc()) {
 // $workshops->free();
 
 
-include("./view.php");
+
 
 ?>

@@ -1,5 +1,5 @@
 <?php
-
+include("view.php");
 require_once '../db.php';
 include_once 'inc/php/functions.php';
  
@@ -82,6 +82,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-include("./view.php");
+
 ?>
  

@@ -4,18 +4,18 @@
 <head>
     <meta property="og:url" content="https://imagine.hackbca.com" />
     <meta property="og:title" content="Imagine 2018" />
-    <meta property="og:image" content="https://imagine.hackbca.com/assets/banner.jpg" />
+    <meta property="og:image" content="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966070/imagine/banner_b4lxld.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Imagine 2018 Workshops</title>
-    <link rel="icon" type="image/png" href="https://s3.amazonaws.com/imagine-2018/assets/favicon.ico">
+    <link rel="icon" type="image/png" href="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966069/imagine/favicon_glhvjd.ico">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="../css/modal_v3.css">
-    <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v5.css">
-    <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/workshops.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/nav_v5.css">
+    <link type="text/css" href="../css/workshops.css" rel="stylesheet" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="text/javascript" src="https://unpkg.com/micromodal@0.3.2/dist/micromodal.min.js"></script>
     
@@ -78,6 +78,7 @@
     </div>
 
     <div class = "workshops">
+        <image style="width: 100%;" src="https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966072/imagine/Schedule_eoim3i.jpg">
          <?php foreach ($workshops as $workshop) { ?>
       <div class="modal micromodal-slide" id="modal-<?php echo $workshop['wkshp_id']; ?>" aria-hidden="true">
             <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -90,7 +91,7 @@
                 </header>
                 <main class="modal__content" id="modal-<?php echo $workshop['wkshp_id'];?>-content">
                     <div class="img-title">
-                        <img src = "https://s3.amazonaws.com/imagine-2018/assets/keynotes/<?php echo $workshop['speaker_img']; ?>">
+                        <img src = "../assets/keynotes/<?php echo $workshop['speaker_img']; ?>">
                         <span>
                             <p><?php echo $workshop['name']; ?></p>
                             <p><?php echo $workshop['speaker_title']; ?></p>

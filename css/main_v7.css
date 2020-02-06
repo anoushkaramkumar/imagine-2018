@@ -45,7 +45,7 @@ textarea, input, button {
   height: 88vh;
   width: 88vh;
   z-index: 8;
-  background-image: url(../assets/planet1.png);
+  background-image: url(https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966071/imagine/planet1_kpev7t.png);
   right: -11vw;
   top: -14vh; }
   @media (max-width: 950px) {
@@ -60,7 +60,7 @@ textarea, input, button {
   height: 45vh;
   width: 45vh;
   z-index: 8;
-  background-image: url(../assets/planet2.png);
+  background-image: url(https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966072/imagine/planet2-cropped_vwkfjp.png);
   right: 8vw; }
   @media (max-width: 950px) {
     .planet2 {
@@ -71,7 +71,7 @@ textarea, input, button {
   height: 17vh;
   width: 17vh;
   z-index: 8;
-  background-image: url(../assets/planet3.png);
+  background-image: url(https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966072/imagine/planet3_f3t4gi.png);
   top: 26vh;
   left: 22vw; }
   @media (max-width: 950px) {
@@ -82,7 +82,7 @@ textarea, input, button {
   height: 20vh;
   width: 20vh;
   z-index: 8;
-  background-image: url(../assets/planet4.png);
+  background-image: url(https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966072/imagine/planet4_y4bzio.png);
   top: 50vh;
   right: 2vw; }
   @media (max-width: 950px) {
@@ -99,7 +99,7 @@ textarea, input, button {
 .planet5 {
   height: 40vh;
   width: 40vh;
-  background-image: url(../assets/starplanet.png);
+  background-image: url(https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966072/imagine/starplanet_htah96.png);
   top: 1vh;
   left: 6vw; }
   @media (max-width: 950px) {
@@ -111,7 +111,7 @@ textarea, input, button {
   -moz-transform: rotate(120deg);
   -webkit-transform: rotate(120deg);
   transform: rotate(120deg);
-  background-image: url(../assets/comet2.png);
+  background-image: url(https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966070/imagine/comet2_ftmre2.png);
   right: 22vw;
   z-index: 7;
   height: 105vh;
@@ -126,7 +126,7 @@ textarea, input, button {
   -moz-transform: rotate(110deg);
   -webkit-transform: rotate(110deg);
   transform: rotate(110deg);
-  background-image: url(../assets/comet3.png);
+  background-image: url(https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966070/imagine/comet3_gxjlan.png);
   right: 22vw;
   z-index: 8;
   height: 89vh;
@@ -141,7 +141,7 @@ textarea, input, button {
   -moz-transform: rotate(110deg);
   -webkit-transform: rotate(110deg);
   transform: rotate(110deg);
-  background-image: url(../assets/comet4.png);
+  background-image: url(https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966071/imagine/comet4_oxno8o.png);
   z-index: 8;
   left: 34vw;
   top: 6vh;
@@ -455,9 +455,9 @@ div#particles-js {
         position: relative;
         overflow: hidden; }
       .whereandwhen .blocks .block.planetbg:nth-child(1) {
-        background-image: url(../assets/background1.jpg); }
+        background-image: url(https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966069/imagine/background1_ghsgqu.jpg); }
       .whereandwhen .blocks .block.planetbg:nth-child(3) {
-        background-image: url(../assets/background2.jpg); }
+        background-image: url(https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966070/imagine/background2_jugcro.jpg); }
       .whereandwhen .blocks .block.planetbg {
         display: flex;
         background-size: cover;
@@ -494,7 +494,7 @@ div#particles-js {
     overflow: hidden; }
     @media (max-width: 600px) {
       .gradient .imgbg {
-        background-image: url(../assets/cometsbg.png);
+        background-image: url(https://res.cloudinary.com/dupk3ebhq/image/upload/v1580966069/imagine/cometsbg.png);
         background-size: 350%; } }
   .gradient .imgbg .cometbg {
     position: absolute;

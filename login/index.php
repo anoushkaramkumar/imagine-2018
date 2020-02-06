@@ -1,4 +1,5 @@
 <?php
+include("./view.php");
 // Include config file
 require_once '../db.php';
  
@@ -83,5 +84,5 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     mysqli_close($con);
 }
 
-include("./view.php");
+
 ?>
