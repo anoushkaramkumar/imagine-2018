@@ -45,7 +45,7 @@ textarea, input, button {
   height: 88vh;
   width: 88vh;
   z-index: 8;
-  background-image: url(https://s3.amazonaws.com/imagine-2018/assets/planet1.png);
+  background-image: url(../assets/planet1.png);
   right: -11vw;
   top: -14vh; }
   @media (max-width: 950px) {
@@ -60,7 +60,7 @@ textarea, input, button {
   height: 45vh;
   width: 45vh;
   z-index: 8;
-  background-image: url(https://s3.amazonaws.com/imagine-2018/assets/planet2.png);
+  background-image: url(../assets/planet2.png);
   right: 8vw; }
   @media (max-width: 950px) {
     .planet2 {
@@ -71,7 +71,7 @@ textarea, input, button {
   height: 17vh;
   width: 17vh;
   z-index: 8;
-  background-image: url(https://s3.amazonaws.com/imagine-2018/assets/planet3.png);
+  background-image: url(../assets/planet3.png);
   top: 26vh;
   left: 22vw; }
   @media (max-width: 950px) {
@@ -82,7 +82,7 @@ textarea, input, button {
   height: 20vh;
   width: 20vh;
   z-index: 8;
-  background-image: url(https://s3.amazonaws.com/imagine-2018/assets/planet4.png);
+  background-image: url(../assets/planet4.png);
   top: 50vh;
   right: 2vw; }
   @media (max-width: 950px) {
@@ -91,7 +91,7 @@ textarea, input, button {
          height: 30vh;
          width: 30vh;
          z-index: 8;
-         background-image: url(https://s3.amazonaws.com/imagine-2018/assets/planet4.png);
+         background-image: url(../assets/planet4.png);
          top: 40vh;
          right: 2vw;*/
       display: none; } }
@@ -99,7 +99,7 @@ textarea, input, button {
 .planet5 {
   height: 40vh;
   width: 40vh;
-  background-image: url(https://s3.amazonaws.com/imagine-2018/assets/starplanet.png);
+  background-image: url(../assets/starplanet.png);
   top: 1vh;
   left: 6vw; }
   @media (max-width: 950px) {
@@ -111,7 +111,7 @@ textarea, input, button {
   -moz-transform: rotate(120deg);
   -webkit-transform: rotate(120deg);
   transform: rotate(120deg);
-  background-image: url(https://s3.amazonaws.com/imagine-2018/assets/comet2.png);
+  background-image: url(../assets/comet2.png);
   right: 22vw;
   z-index: 7;
   height: 105vh;
@@ -126,7 +126,7 @@ textarea, input, button {
   -moz-transform: rotate(110deg);
   -webkit-transform: rotate(110deg);
   transform: rotate(110deg);
-  background-image: url(https://s3.amazonaws.com/imagine-2018/assets/comet3.png);
+  background-image: url(../assets/comet3.png);
   right: 22vw;
   z-index: 8;
   height: 89vh;
@@ -141,7 +141,7 @@ textarea, input, button {
   -moz-transform: rotate(110deg);
   -webkit-transform: rotate(110deg);
   transform: rotate(110deg);
-  background-image: url(https://s3.amazonaws.com/imagine-2018/assets/comet4.png);
+  background-image: url(../assets/comet4.png);
   z-index: 8;
   left: 34vw;
   top: 6vh;
@@ -455,9 +455,9 @@ div#particles-js {
         position: relative;
         overflow: hidden; }
       .whereandwhen .blocks .block.planetbg:nth-child(1) {
-        background-image: url(https://s3.amazonaws.com/imagine-2018/assets/background1.jpg); }
+        background-image: url(../assets/background1.jpg); }
       .whereandwhen .blocks .block.planetbg:nth-child(3) {
-        background-image: url(https://s3.amazonaws.com/imagine-2018/assets/background2.jpg); }
+        background-image: url(../assets/background2.jpg); }
       .whereandwhen .blocks .block.planetbg {
         display: flex;
         background-size: cover;
@@ -494,7 +494,7 @@ div#particles-js {
     overflow: hidden; }
     @media (max-width: 600px) {
       .gradient .imgbg {
-        background-image: url(https://s3.amazonaws.com/imagine-2018/assets/cometsbg.png);
+        background-image: url(../assets/cometsbg.png);
         background-size: 350%; } }
   .gradient .imgbg .cometbg {
     position: absolute;

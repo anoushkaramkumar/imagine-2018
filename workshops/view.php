@@ -125,8 +125,7 @@
                   <i class="fas fa-plus-circle"></i>
                 </button>
                 <h4><?php echo $workshop['title']; ?></h4>
-                <span><i class="fas fa-tag"></i> <?php echo $workshop['tags']; ?></span>
-                <span><?php echo $start_time->format('h:ia'); ?> - <?php echo $end_time->format('h:ia'); ?></span>
+                 <!-- <span><?php /* echo $start_time->format('h:ia'); */?> - <?php /*echo $end_time->format('h:ia'); */?></span> -->
                 <div class="img-title">
                     <img src = "https://s3.amazonaws.com/imagine-2018/assets/keynotes/<?php echo $workshop['speaker_img']; ?>">
                     <span>
@@ -177,7 +176,7 @@
                 </button>
                 <h4><?php echo $workshop['title']; ?></h4>
                 <span><i class="fas fa-tag"></i> <?php echo $workshop['tags']; ?></span>
-                <span><?php echo $start_time->format('h:ia'); ?> - <?php echo $end_time->format('h:ia'); ?></span>
+                <!-- <span><?php /* echo $start_time->format('h:ia'); */?> - <?php /*echo $end_time->format('h:ia'); */?></span> -->
                 <div class="img-title">
                     <img src = "https://s3.amazonaws.com/imagine-2018/assets/keynotes/<?php echo $workshop['speaker_img']; ?>">
                     <span>

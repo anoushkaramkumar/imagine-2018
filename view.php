@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Imagine 2018</title>
-    <link rel="icon" type="image/png" href="https://s3.amazonaws.com/imagine-2018/assets/favicon.ico">
+    <link rel="icon" type="image/png" href="assets/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -17,8 +17,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.1/particles.js"></script>
-    <link rel="stylesheet" href="https://s3.amazonaws.com/imagine-2018/css/nav_v5.css">
-    <link type="text/css" href="https://s3.amazonaws.com/imagine-2018/css/main_v7.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/nav_v5.css">
+    <link type="text/css" href="css/main_v7.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 
@@ -75,7 +75,7 @@
             <div class = "whatis page-section" id="about">
                 <h3 class = "animated fadeIn">WHAT IS IMAGINE?</h3>
                 <p class = "animated fadeIn "><b>Imagine 2018: a hackBCA Event</b> is a two-day computer science conference hosted at Bergen County Academies. We’re open to all high school and undergraduate students interested in taking a wide variety of computer science related workshops taught by industry veterans and attending keynotes from influential technologists. Prior programming experience is not required; we’re here for anyone who wants to learn, meet new people, and create something awesome!</p>
-                <a class = "torchicon1 animated fadeIn" target = "_blank" href = "history"><img src = "https://s3.amazonaws.com/imagine-2018/assets/TorchWhite.png">View our history.</a>
+                <a class = "torchicon1 animated fadeIn" target = "_blank" href = "history"><img src = "assets/TorchWhite.png">View our history.</a>
             </div>
         </div>
         <img class = "waves" src = "assets/Waves1.png" data-aos="fade-up" data-aos-duration="500" data-aos-delay = "100">
@@ -114,17 +114,17 @@
                 <h3 class="animated fadeIn">KEYNOTE SPEAKERS</h3>
                 <div class="sbubbles">
                     <div class="speaker o">
-                        <img src="https://s3.amazonaws.com/imagine-2018/assets/horowitz.jpg">
+                        <img src="assets/horowitz.jpg">
                         <p><b>Eliot Horowitz</b></p>
                         <p>Co-Founder &amp; CTO, MongoDB</p>
                     </div>
                     <div class="speaker e">
-                        <img src="https://s3.amazonaws.com/imagine-2018/assets/anthonyjohnson.gif">
+                        <img src="assets/anthonyjohnson.jpg">
                         <p><b>Anthony Johnson</b></p>
                         <p>CTO, GIPHY</p>
                     </div>
                     <div class="speaker o">
-                        <img src="https://s3.amazonaws.com/imagine-2018/assets/geraghty.jpg">
+                        <img src="assets/geraghty.jpg">
                         <p><b>Michael Geraghty</b></p>
                         <p>Chief Information Security Officer, State of New Jersey</p>
                     </div>
@@ -143,7 +143,7 @@
                         <div class="inner">
                             <h4>Building cool things with Google Maps</h4><span><i class="fas fa-tag"></i> Beginner, Javascript, API</span>
                             <div class="img-title">
-                                <img src="https://s3.amazonaws.com/imagine-2018/assets/alain.png"> 
+                                <img src="assets/alain.png"> 
                                 <span>
                                     <p>Alain Chautard</p>
                                     <p>Expert Web Consultant @ Interstate 21</p>
@@ -166,7 +166,7 @@
                     <div class="inner">
                         <h4>Learn to Speak Machine Learning</h4><span><i class="fas fa-tag"></i> Talk, Beginner, ML/AI</span>
                         <div class="img-title">
-                            <img src="https://s3.amazonaws.com/imagine-2018/assets/yael.gif"> 
+                            <img src="assets/yael.gif"> 
                             <span>
                                 <p>Yael Elmatad</p>
                                 <p>Lead Data Scientist @ GIPHY</p>
@@ -188,7 +188,7 @@
                     <div class="inner">
                         <h4>So what’s this hacking stuff?</h4><span><i class="fas fa-tag"></i> Cybersecurity, Beginner</span>
                         <div class="img-title">
-                            <img src="https://s3.amazonaws.com/imagine-2018/assets/andreas.jpg">
+                            <img src="assets/andreas.jpg">
                             <span>
                                 <p>Andreas Kellas</p>
                                 <p>Officer, Software Developer @ U.S. Army</p>
@@ -210,7 +210,7 @@
                     <div class="inner">
                         <h4>Classic Arcade Games with p5.js</h4><span><i class="fas fa-tag"></i> Beginner,Javascript</span>
                         <div class="img-title">
-                            <img src="https://s3.amazonaws.com/imagine-2018/assets/upperline-icon.png"> <span></span>
+                            <img src="assets/upperline-icon.png"> <span></span>
                             <span>
                                 <p>Upperline Code</p>
                                 <p>Bootcamp</p>
@@ -232,7 +232,7 @@
                     <div class="inner">
                         <h4>Open Up to Open Source</h4><span><i class="fas fa-tag"></i> Talk, Non-technical, Beginner</span>
                         <div class="img-title">
-                            <img src="https://s3.amazonaws.com/imagine-2018/assets/lavesha.jpg"> 
+                            <img src="assets/lavesha.jpg"> 
                             <span>
                                 <p>La Vesha Parker</p>
                                 <p>Software Engineer @ Etsy</p>
@@ -254,7 +254,7 @@
                     <div class="inner">
                         <h4>Creative data visualizations with SVG and D3.js</h4><span><i class="fas fa-tag"></i> Art, Javascript, Data</span>
                         <div class="img-title">
-                            <img src="https://s3.amazonaws.com/imagine-2018/assets/shirleywu.jpeg">
+                            <img src="assets/shirleywu.jpeg">
                             <span>
                                 <p>Shirley Wu</p>
                                 <p>Data Visualization Freelancer</p>
@@ -276,7 +276,7 @@
                     <div class="inner">
                         <h4>Let's Make a Twitter Bot!</h4><span><i class="fas fa-tag"></i> Beginner, Bots, Art</span>
                         <div class="img-title">
-                            <img src="https://s3.amazonaws.com/imagine-2018/assets/cassietarakajian.jpeg"> <span></span>
+                            <img src="assets/cassietarakajian.jpeg"> <span></span>
                             <span>
                                 <p>Cassie Tarakajian</p>
                                 <p>Software dev @ Processing Foundation</p>
@@ -298,7 +298,7 @@
                     <div class="inner">
                         <h4>3 Steps to Becoming a Real-World Super Hero</h4><span><i class="fas fa-tag"></i> Talk, Non-technical, Career</span>
                         <div class="img-title">
-                            <img src="https://s3.amazonaws.com/imagine-2018/assets/mattscott.jpg">
+                            <img src="assets/mattscott.jpg">
                             <span>
                                 <p>Matt Scott</p>
                                 <p>Founder, 180&deg; of Impact &amp; Global Organizer, NASA's Space Apps Challenge</p>
@@ -347,7 +347,7 @@
                         <div class="clear" style="clear: both;"></div>
                     </div>
                 </div>
-    <img class="cometbg" src="https://s3.amazonaws.com/imagine-2018/assets/cometsbg_new.png">
+    <img class="cometbg" src="assets/cometsbg_new.png">
     
     <div class="faq page-section" id="faq">
         <h3 class="animated fadeIn">FAQ</h3>
@@ -401,16 +401,16 @@
         <h3 class="animated fadeIn">SPONSORS</h3>
         <div class="logos">
             <div class="row">
-                <a href="https://github.com/" target="_blank"><img class="github" src="https://s3.amazonaws.com/imagine-2018/assets/github.png"></a> <a href="https://www.google.com/" target="_blank"><img class="google" src="https://s3.amazonaws.com/imagine-2018/assets/google.png"></a>
+                <a href="https://github.com/" target="_blank"><img class="github" src="assets/github.png"></a> <a href="https://www.google.com/" target="_blank"><img class="google" src="assets/google.png"></a>
             </div>
             <div class="row">
-                <a href="https://quizlet.com/" target="_blank"><img class="quizlet" src="https://s3.amazonaws.com/imagine-2018/assets/quizlet.png"></a> <a href="https://giphy.com/" target="_blank"><img class="giphy" src="https://s3.amazonaws.com/imagine-2018/assets/giphy.png"></a> <a href="https://www.twilio.com/" target="_blank"><img class="twilio" src="https://s3.amazonaws.com/imagine-2018/assets/twilio.png"></a>
+                <a href="https://quizlet.com/" target="_blank"><img class="quizlet" src="assets/quizlet.png"></a> <a href="https://giphy.com/" target="_blank"><img class="giphy" src="assets/giphy.png"></a> <a href="https://www.twilio.com/" target="_blank"><img class="twilio" src="assets/twilio.png"></a>
             </div>
             <div class="row">
-                <a href="https://technosoftacademy.io/" target="_blank"><img class="technosoft" src="assets/technosoft.png"></a> <a href="https://www.janestreet.com/" target="_blank"><img class="janestreet" src="https://s3.amazonaws.com/imagine-2018/assets/janestreet.png"></a>
+                <a href="https://technosoftacademy.io/" target="_blank"><img class="technosoft" src="assets/technosoft.png"></a> <a href="https://www.janestreet.com/" target="_blank"><img class="janestreet" src="assets/janestreet.png"></a>
             </div>
             <div class="row">
-                <a href="https://www.upperlinecode.com/" target="_blank"><img class="upperline" src="https://s3.amazonaws.com/imagine-2018/assets/upperline.png"></a> <a href="https://www.jetbrains.com/" target="_blank"><img class="jetbrains" src="https://s3.amazonaws.com/imagine-2018/assets/jetbrains.png"></a>
+                <a href="https://www.upperlinecode.com/" target="_blank"><img class="upperline" src="assets/upperline.png"></a> <a href="https://www.jetbrains.com/" target="_blank"><img class="jetbrains" src="assets/jetbrains.png"></a>
             </div>
         </div>
     </div>
@@ -419,7 +419,7 @@
             <a href="https://www.facebook.com/hackbca" target="_blank"><i class="fab fa-facebook-square"></i></a> <a href="https://twitter.com/hackBCA" target="_blank"><i class="fab fa-twitter"></i></a> <a href="https://www.instagram.com/hackbca/" target="_blank"><i class="fab fa-instagram"></i></a> <a href="https://www.snapchat.com/add/hackbca/" target="_blank"><i class="fab fa-snapchat-ghost" style="padding: 0;"></i></a><br>
         </div>
         <div class="imgend">
-            <img src="https://s3.amazonaws.com/imagine-2018/assets/planet1.png">
+            <img src="assets/planet1.png">
             <h3>IMAGINE 2018</h3><br>
             <a href="/code-of-conduct">Our Code of Conduct</a>
         </div>
@@ -436,7 +436,7 @@
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="particles.js"></script>
     <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
-    <script src="https://s3.amazonaws.com/imagine-2018/js/app.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 
